@@ -1,11 +1,9 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 1
-title: Why can't tech and energy get along?
+layout: page
+title: Test Blog
+date: 2024-03-20 22:35 +0000
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: matt
-date: 2024-03-20 11:30:00 +0100
 categories: [Blogging]
 tags: [energy, risk, cybersecurity, technology]
 pin: true
