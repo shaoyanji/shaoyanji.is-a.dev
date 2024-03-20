@@ -1,56 +1,26 @@
-# Chirpy Starter
+Hi there! 👋
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+I'm ShaoYan (Matt) Ji, a passionate developer with a background in finance and engineering. Welcome to my corner of the GitHub universe, where I blend my technical expertise with a knack for financial analysis and project management.
+About Me
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+🌟 Professional Background: With experience spanning asset management, financial analysis, and technical operations, I bring a unique perspective to every project I undertake.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+🔭 Current Focus: I'm currently diving deep into the world of renewable energy management, exploring innovative solutions to drive sustainable development.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+💻 Tech Stack: Python, Java, C++, you name it! I love experimenting with different programming languages and technologies to solve real-world problems.
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+📈 Analytical Mindset: Whether it's crunching numbers or conducting market research, I thrive on leveraging data-driven insights to make informed decisions.
+What I Bring to the Table
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+    Entrepreneurial Spirit: As a self-starter, I'm not afraid to roll up my sleeves and tackle challenges head-on.
+    Team Player: Collaboration is key! I thrive in dynamic team environments, where diverse perspectives fuel innovation.
+    Attention to Detail: From coding to financial modeling, I believe that success lies in the finer details.
 
-## Prerequisites
+Let's Connect!
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+📫 Reach Out: Feel free to drop me a message at jisifu@gmail.com. I'm always open to new opportunities and collaborations!
 
-## Installation
+⚡ Fun Fact: When I'm not coding, you can find me exploring the great outdoors or tinkering with DIY projects.
+Projects Showcase
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```console
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Stay tuned for updates on my latest projects and contributions! From risk management tools to renewable energy initiatives, there's always something exciting in the works.
