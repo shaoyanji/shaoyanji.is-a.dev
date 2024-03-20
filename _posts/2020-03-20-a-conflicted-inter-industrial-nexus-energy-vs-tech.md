@@ -12,7 +12,7 @@ comments: false
 math: true
 mermaid: true
 ---
-![Desktop View](/posts/20240320/1.jpg){: width="972" height="589" }
+![Desktop View](https://github.com/shaoyanji/shaoyanji.github.io/blob/main/_posts/20200320/1.jpg){: width="972" height="589" }
 _Let's start off with the Ideological Divide between Renewables vs. Conventional Energy_  
 As the world grapples with the urgent need to address climate change, the renewable energy and conventional energy industries find themselves on opposite ends of the ideological spectrum, locked in a battle for the future of our planet. While renewable energy advocates champion sustainable solutions to reduce greenhouse gas emissions and mitigate environmental impact, traditional energy proponents cling to established practices and infrastructure, wary of the perceived risks and challenges associated with transitioning to alternative sources. This ideological impasse has created a stark divide between the two camps, amplifying tensions on the frontline of the climate change battlefield.
 
