@@ -20,7 +20,7 @@ I'm ShaoYan (Matt) Ji, a passionate developer with a background in finance and e
 
 ## Let's Connect!
 
-📫 **Reach Out:** Feel free to drop me a message at jisifu@gmail.com. I'm always open to new opportunities and collaborations!
+📫 **Reach Out:** Feel free to drop me a message at matt@bountystash.com. I'm always open to new opportunities and collaborations!
 
 ⚡ **Fun Fact:** When I'm not coding, you can find me exploring the great outdoors or tinkering with DIY projects.
 
