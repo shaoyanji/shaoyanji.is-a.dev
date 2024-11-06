@@ -1,0 +1,33 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  JEKYLL: bundle exec jekyll
+
+tasks:
+  default:
+    cmds:
+      - task $(gum choose "server" "draft" "post" "git-add-commit-push")
+    silent: true
+  server:
+    cmds:
+      - bundle exec jekyll serve
+    silent: true
+  draft:
+    cmds:
+      - bundle exec jekyll draft "My new draft"
+    silent: true
+  post:
+    cmds:
+      - bundle exec jekyll post "My new post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"
+    silent: true
+  git-add-commit-push:
+    cmds:
+      - git add .
+        && git commit -m "update"
+        && git push
+        && git status
+        && echo "git push success"
+        || echo "git push failed"
+        && exit 1
