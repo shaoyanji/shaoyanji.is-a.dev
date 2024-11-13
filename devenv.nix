@@ -24,7 +24,6 @@
   # https://devenv.sh/scripts/
   scripts.hello.exec = ''
     echo hello from $GREET
-    applied bundler
   '';
 
   enterShell = ''
