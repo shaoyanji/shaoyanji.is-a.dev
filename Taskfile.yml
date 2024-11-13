@@ -30,4 +30,4 @@ tasks:
         && git status
         && echo "git push success"
         || echo "git push failed"
-        && exit 1
+
