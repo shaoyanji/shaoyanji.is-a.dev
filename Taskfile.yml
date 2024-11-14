@@ -8,7 +8,8 @@ vars:
 tasks:
   default:
     cmds:
-      - task $(gum choose "server" "draft" "post" "git-add-commit-push")
+      - git pull
+      - task $(gum choose "server" "draft" "post" "git-add-commit-push" "exit")
     silent: true
   server:
     cmds:
