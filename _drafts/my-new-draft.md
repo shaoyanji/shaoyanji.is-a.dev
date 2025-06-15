@@ -12,3 +12,4 @@ The source code is a little bloaty for a blog because it isn't yet fully declara
 
 I am considering moving my blog to [Hugo](https://gohugo.io/) but I'm not sure if I want to do that yet. The theme I am currently looking at is https://github.com/CaiJimmy/hugo-theme-stack-starter. It has a similar look and feel of chirpy.
 
+wir machen jetzt etwas fuer dieser codespace env
