@@ -1,11 +1,15 @@
 # https://taskfile.dev
 
-version: '3'
+version: "3"
 
 vars:
   JEKYLL: bundle exec jekyll
 
 tasks:
+  dependencies:
+    cmds:
+      - nix-shell
+      - gem install bundle && bundle install && bundle && bundle exec jekyll serve --incremental
   default:
     cmds:
       - git pull
@@ -31,4 +35,3 @@ tasks:
         && git status
         && echo "git push success"
         || echo "git push failed"
-
