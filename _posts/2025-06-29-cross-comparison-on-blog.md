@@ -2,6 +2,8 @@
 layout: post
 title: Psst, Nix and blogging
 date: 2024-11-13
+categories: [Blog/Comparison]
+tags: [technology, risk, analysis]
 ---
 
 This is my new draft.
@@ -12,7 +14,7 @@ The source code is a little bloaty for a blog because it isn't yet fully declara
 
 I am considering moving my blog to [Hugo](https://gohugo.io/) but I'm not sure if I want to do that yet. The theme I am currently looking at is https://github.com/CaiJimmy/hugo-theme-stack-starter. It has a similar look and feel of chirpy.
 
-wir machen jetzt etwas fuer dieser codespace env
+My dotfiles for codespace and raspberry pi is located in my dotfiles git repo that I have privated. But I think I can open it up one day as it shows a method on making security work.
 
 ## Update: June 29, 2025
 
