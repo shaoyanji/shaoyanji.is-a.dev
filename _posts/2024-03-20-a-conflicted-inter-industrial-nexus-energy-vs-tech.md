@@ -43,5 +43,6 @@ To overcome these challenges, tech-enabled teams must navigate a delicate balanc
 
 As the energy industry continues to evolve, the need for collaboration and innovation has never been greater. Tech-enabled teams bring fresh perspectives, innovative solutions, and a drive for progress that can propel the industry forward. By embracing diversity, fostering collaboration, and embracing change, the energy industry can harness the full potential of tech-enabled innovation to create a brighter, more sustainable future for all.
 
-> a 2025 review of this post does pose an interesting question of whether green energy momentum is waning or if the messaging has been an endless string of platitudes. It remains to be seen whether the consequences for humanity will justify the near term fascination with group-centric egoism
-> {: .prompt-warning }
+![bountystash](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvca6mkz0000ezd4yap6edgm/f14bb8f2-f2ba-4166-93a3-2c8d49d0722d.jpg/public)
+
+> a 2025 review of this post does pose an interesting question of whether green energy momentum is waning or if the messaging has been an endless string of platitudes. It remains to be seen whether the consequences for humanity will justify the near term fascination with group-centric egoism {: .prompt-warning }
