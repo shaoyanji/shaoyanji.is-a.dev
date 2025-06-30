@@ -35,3 +35,11 @@ tasks:
         && git status
         && echo "git push success"
         || echo "git push failed"
+  mdimg:
+    cmds:
+      - echo -n '![{{.CLI_ARGS}}]('$(task awkimg -- {{.CLI_ARGS}})')'
+    silent: true
+  awkimg:
+    cmds:
+      - curl -F"file=@$(tgpt --img --height 630 --width 1200 "{{.CLI_ARGS}}"| awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
+    silent: true
