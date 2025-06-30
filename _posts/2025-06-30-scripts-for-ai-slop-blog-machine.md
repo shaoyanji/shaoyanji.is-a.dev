@@ -30,7 +30,7 @@ Perhaps AI slop can serve a purpose for writing drafts and later in post-product
 
 I'll show you a few scripts I use to auto-generate images while in the terminal so you are never distracted from writing while at the same time carefully balancingbetween the pixels of text and visuals.
 
-Dependencies: [`task`](https://taskfile.dev/) and [`tgpt`](https://github.com/aandrew-me/tgpt)
+Dependencies: [`task`](https://taskfile.dev/) and [`tgpt`](https://github.com/aandrew-me/tgpt) and most importantly `curl` but it is assumed to be installed.
 
 Step 1: Copy the following text and save it as a `Taskfile.yml` into any folder
 
@@ -43,7 +43,7 @@ tasks:
     silent: true
   awkimg:
     cmds:
-      - curl -F"file=@$(tgpt --img --height 630 --width 1200 "{{.CLI_ARGS}}"| awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
+      - curl --no-progress-meter -F"file=@$(tgpt --img --height 630 --width 1200 "{{.CLI_ARGS}}"| awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
     silent: true
 ```
 
@@ -66,3 +66,7 @@ It certainly beats opening up a browser and copy and pasting manually. Whether y
 What's more, this little task file or snippet can work near universally for your blog engine,your new html framework renderer,a website or a Github documentation.
 
 The dependencies are even easily installabe on windows with `scoop install tgpt go-task`
+
+And yes, this is still a distraction and slop:
+![female devil lucifer sexy creating computers with a boulder witch lady](https://envs.sh/uwR.jpg)
+But it is quite nifty. And believe it or not. This might be a blog post that I will come back to again and again to copy and paste this generator of pixels from pixels of txt.
