@@ -4,6 +4,9 @@ title: Psst, Nix and blogging
 date: 2024-11-13
 categories: [Blog/Comparison]
 tags: [technology, risk, analysis]
+image:
+  path: https://envs.sh/uwm.jpg
+  alt: wrestle match between the different blogging engines
 ---
 
 This is my new draft.

@@ -9,7 +9,7 @@ image:
   alt: image of a cyberhacker doing something with a toaster
 ---
 
-# Best things ins life are free
+# Best things in life are free
 
 I am a sucker for signing up for free things. Many lists of services that give me endless distraction. Here's one of the lists: [free-for.dev](https://free-for.dev/#/?id=web-hosting). I've checked out [Alwaysdata](https://www.alwaysdata.com/) and (Serv00.com)[https://serv00.com/]. Today, I'll be mostly talking about the latter.
 
@@ -58,6 +58,8 @@ make serve
 ```
 
 ![image of a hacker man](https://envs.sh/uPW.jpg)
-If it doesn work, then editing the server.go and replacing the port to the opened port you have opened should do the trick.
+If it doesn work, then editing the `server.go` and replacing the port to the opened port you have opened should do the trick.
 
 And there you have it. Hacking a free server to run portable ephemeral dynamic server. I am not sure how well this would work unattended even a production grade web app because processes can be killed by a daemon. But since this server isn't some docker container, this capability to run customized server content can be a boon to whatever projects you are trying to hack up.
+
+Granted, it's probably not that impressive since you can test locally. But when you are on the go and developing from an ipad or phone, it's not a terrible to ssh via termux or terminus/ish to the server to test in a semi-live prod environment.

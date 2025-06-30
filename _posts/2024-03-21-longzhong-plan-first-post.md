@@ -4,6 +4,9 @@ title: Navigating Chaos with the Longzhong Plan
 categories: [Project/Longzhong Plan]
 tags: [energy, risk, cybersecurity, technology]
 tags: [chaos, longzhong_plan, liu_bei, han_dynasty, strategy, career_consultancy, react_native, cross_platform_development, skill_inventory, innovation, technology, uncertainty, guidance, ambition, future_planning]
+image:
+  path: https://envs.sh/uw6.jpg
+  alt: Zhuge Liang's longzhang plan revealed to take over southwestern china two decades before it executed
 ---
 
 In the midst of today's turbulent world, where chaos reigns and uncertainty looms on the horizon, many of us find ourselves feeling lost. The rapid pace of technological advancement, the specter of global conflicts, and the ever-changing landscape of society leave us grappling with internal conflicts and unspoken anxieties.

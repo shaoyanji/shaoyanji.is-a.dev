@@ -33,4 +33,3 @@ Ich bin ShaoYan (Matt) Ji, ein leidenschaftlicher Entwickler mit Erfahrung in Fi
 ## Projekte Showcase
 
 Bleiben Sie auf dem Laufenden über meine neuesten Projekte und Beiträge! Von Risikomanagement-Tools bis hin zu Initiativen im Bereich erneuerbare Energien gibt es immer etwas Spannendes in Arbeit.
-
