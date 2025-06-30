@@ -6,12 +6,12 @@ categories: [Blog/Comparison]
 tags: [technology, analysis, Go]
 image:
   path: https://envs.sh/ubd.jpg
-  alt: image of a cyberhacker doing something with a toaster
+  alt: A fantasy tree because tree rhymes with free
 ---
 
 # Best things in life are free
 
-I am a sucker for signing up for free things. Many lists of services that give me endless distraction. Here's one of the lists: [free-for.dev](https://free-for.dev/#/?id=web-hosting). I've checked out [Alwaysdata](https://www.alwaysdata.com/) and (Serv00.com)[https://serv00.com/]. Today, I'll be mostly talking about the latter.
+I am a sucker for signing up for free things. Many lists of services that give me endless distraction. Here's one of the lists: [free-for.dev](https://free-for.dev/#/?id=web-hosting). I've checked out [Alwaysdata](https://www.alwaysdata.com/) and [Serv00.com](https://serv00.com/). Today, I'll be mostly talking about the latter.
 
 ## Serving Wasm where it couldn't be served
 
@@ -19,17 +19,17 @@ One of the things that I have been experimenting on is using static sites with w
 
 However, I've notice that not all php static servers treat the wasm MIME type equally. Only alwaysdata does this and it does so with octet stream on the wasm type.
 
-Alright so here's where I looked to hack the server to do something other than php and django. In the terminal, you will find that there is a python cli program called `devil` that helps you manage the environment.
+Alright so here's where I looked to hack the server to do something other than `php` and `django`. In the terminal, you will find that there is a python cli program called `devil` that helps you manage the environment.
 
 ## netcat test
 
-```bash
+```console
 $ which nc
 ```
 
 This should work but if it doesn't you may need to activate binary execution using the `devil` cli tool.
 
-```bash
+```console
 $ devil vhost port add tcp <random>
 $ nc -l <random port>
 ```
@@ -38,7 +38,7 @@ Go to the browser or curl the address with the port number like this `http://<yo
 
 If you give a proper HTTP respose header, something like this should give a `hello world` response:
 
-```
+```console
 HTTP/1.1 200 OK
   MIME-Version: 1.0
   Server: Edited out
@@ -51,7 +51,7 @@ Surely enough, if a simple netcat response works then we can implement a server 
 
 ## Go serving WASM
 
-```
+```console
 git clone https://github.com/shaoyanji/kelly-wasm.git
 cd kelly-wasm.git
 make serve
