@@ -12,8 +12,7 @@ tasks:
       - gem install bundle && bundle install && bundle && bundle exec jekyll serve --incremental
   default:
     cmds:
-      # - git pull
-      # - task $(gum choose "server" "draft" "post" "git-add-commit-push" "exit")
+      - git pull
       - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | gum choose)
     silent: true
   server:
@@ -44,3 +43,12 @@ tasks:
     cmds:
       - curl --no-progress-meter -F"file=@$(tgpt --img --height 630 --width 1200 "{{.CLI_ARGS}}"| awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
     silent: true
+  exit:
+    cmds:
+      - exit
+  post:
+    vars:
+      DATE:
+        sh: date "+%Y-%m-%d"
+    cmds:
+      - cp ./_posts/2024-03-20-a-conflicted-inter-industrial-nexus-energy-vs-tech.md ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
