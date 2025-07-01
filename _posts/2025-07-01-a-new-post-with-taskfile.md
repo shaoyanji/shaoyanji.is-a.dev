@@ -4,7 +4,7 @@ title: A Taskfile-Powered Blog Engine
 date: 2025-07-01 
 description: Many people look at the framework as the fulcrum of the blog. I believe that its the tooling that makes a blog both fun to read and write 
 author: matt
-categories: [Blog]
+categories: [Blogging]
 tags: [energy, risk, cybersecurity, technology]
 pin: false
 toc: true
@@ -43,12 +43,12 @@ date +%Y-%m-%d
 Normally vim doesn't do a graceful job at inserting stdout text and requires some macros to format the text from terminal stdout. I have discovered this little gem.
 
 ```console
-:redir @a
-:!task mdimg -- "the prompt for image generation" 
-:redir END
-:0put =@a
+  :redir @a
+  :!task mdimg -- "the prompt for image generation" 
+  :redir END
+  :0put =@a
 ```
-As discussed in my [previous post](), I have been using this to generate images for my blog posts as I write.
+As discussed in my [previous post](./-scripts-for-ai-slop-blog-machine.md), I have been using this to generate images for my blog posts as I write.
 
 ![vim blogging ultimate manual](https://envs.sh/uLL.jpg)
 

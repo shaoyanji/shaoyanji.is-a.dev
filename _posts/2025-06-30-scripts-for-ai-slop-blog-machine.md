@@ -7,7 +7,7 @@ author: matt
 categories: [Blogging]
 tags: [energy, cybersecurity, technology]
 pin: true
-toc: false
+toc: true
 comments: false
 math: true
 mermaid: true
@@ -16,7 +16,7 @@ image:
   alt: a sexy devil on a computer
 ---
 
-# AI Slop Content Management
+## AI Slop Content Management
 
 On the one hand, having more content than not is a wonderful problem to have. It means not having to pay for a division of labor artist or content creator. You can be responsible and gain technological leverage.
 
