@@ -12,8 +12,9 @@ tasks:
       - gem install bundle && bundle install && bundle && bundle exec jekyll serve --incremental
   default:
     cmds:
-      - git pull
-      - task $(gum choose "server" "draft" "post" "git-add-commit-push" "exit")
+      # - git pull
+      # - task $(gum choose "server" "draft" "post" "git-add-commit-push" "exit")
+      - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | gum choose)
     silent: true
   server:
     cmds:
