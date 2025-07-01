@@ -4,6 +4,7 @@ version: "3"
 
 vars:
   JEKYLL: bundle exec jekyll
+  WHOAMI: whoami
 
 tasks:
   dependencies:
@@ -12,20 +13,20 @@ tasks:
       - gem install bundle && bundle install && bundle && bundle exec jekyll serve --incremental
   default:
     cmds:
-      - git pull
+      # - git pull
       - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | gum choose)
     silent: true
-  server:
+  serve:
     cmds:
-      - bundle exec jekyll serve
+      - '{{.JEKYLL}} serve'
     silent: true
   draft:
     cmds:
-      - bundle exec jekyll draft "My new draft"
+      - '{{.JEKYLL}} draft "My new draft"'
     silent: true
   post:
     cmds:
-      - bundle exec jekyll post "My new post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"
+      - '{{.JEKYLL}} post "My new post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"'
     silent: true
   git-add-commit-push:
     cmds:
