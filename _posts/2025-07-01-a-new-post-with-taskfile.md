@@ -48,7 +48,7 @@ Normally vim doesn't do a graceful job at inserting stdout text and requires som
   :redir END
   :0put =@a
 ```
-As discussed in my [previous post](./-scripts-for-ai-slop-blog-machine.md), I have been using this to generate images for my blog posts as I write.
+As discussed in my [previous post](./-scripts-for-ai-slop-blog-machine), I have been using this to generate images for my blog posts as I write.
 
 ![vim blogging ultimate manual](https://envs.sh/uLL.jpg)
 
