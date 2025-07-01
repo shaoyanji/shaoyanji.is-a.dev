@@ -13,7 +13,7 @@ math: false
 mermaid: false
 image:
   path: https://envs.sh/uLG.jpg
-  alt: "king arthur pulling the sword from the anvil"
+  alt: king arthur pulling the sword from the anvil
 ---
 
 ## A way to integrate Taskfile with Jekyll without dependencies on local system
