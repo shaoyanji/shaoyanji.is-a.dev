@@ -14,7 +14,7 @@ tasks:
   default:
     cmds:
       # - git pull
-      - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | gum choose)
+      - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | fzf)
     silent: true
   serve:
     cmds:
@@ -41,15 +41,19 @@ tasks:
       - echo -n '![{{.CLI_ARGS}}]('$(task awkimg -- {{.CLI_ARGS}})')'
     silent: true
   awkimg:
+    vars:
+      TGPT:
+        sh: which tgpt
     cmds:
-      - curl --no-progress-meter -F"file=@$(tgpt --img --height 630 --width 1200 "{{.CLI_ARGS}}"| awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
+      - curl --no-progress-meter -F"file=@$('{{.TGPT}}' --img --height 630 --width 1200 "{{.CLI_ARGS}}" | awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
     silent: true
   exit:
     cmds:
       - exit
   post:
+    desc: Usage is the cli argument way `task post "<title of the post>"`
     vars:
       DATE:
         sh: date "+%Y-%m-%d"
     cmds:
-      - cp ./_posts/2024-03-20-a-conflicted-inter-industrial-nexus-energy-vs-tech.md ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
+      - cp ./_posts/2025-07-04-static-site-generation-is-frustrating.md ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
