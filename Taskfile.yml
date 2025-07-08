@@ -57,3 +57,4 @@ tasks:
         sh: date "+%Y-%m-%d"
     cmds:
       - cp ./_posts/2025-07-04-static-site-generation-is-frustrating.md ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
+      - nvim ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
