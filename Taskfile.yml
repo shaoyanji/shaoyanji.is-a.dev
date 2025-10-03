@@ -16,15 +16,15 @@ tasks:
       # - git pull
       - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | fzf)
     silent: true
-  serve:
+  jserve:
     cmds:
       - '{{.JEKYLL}} serve'
     silent: true
-  draft:
+  jdraft:
     cmds:
       - '{{.JEKYLL}} draft "My new draft"'
     silent: true
-  post:
+  jpost:
     cmds:
       - '{{.JEKYLL}} post "My new post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"'
     silent: true
@@ -51,10 +51,13 @@ tasks:
     cmds:
       - exit
   post:
-    desc: Usage is the cli argument way `task post "<title of the post>"`
     vars:
       DATE:
         sh: date "+%Y-%m-%d"
+      TITLE:
+        sh: gum input --prompt 'Title> '
+      SLUG:
+        sh: echo {{.TITLE}} | sed -E 's/(.*)/\L\1/; s/ /_/g'
     cmds:
-      - cp ./_posts/2025-07-04-static-site-generation-is-frustrating.md ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
-      - nvim ./_posts/{{.DATE}}-{{.CLI_ARGS}}.md
+      - "printf '%s\n' '---' 'layout: post' 'title: {{.TITLE}}' 'date: {{.DATE}}' 'categories: [Blog]' 'tags: [technology]' '---' '' '' > ./_posts/{{.DATE}}-{{.SLUG}}.md"
+      - $EDITOR ./_posts/{{.DATE}}-{{.SLUG}}.md
