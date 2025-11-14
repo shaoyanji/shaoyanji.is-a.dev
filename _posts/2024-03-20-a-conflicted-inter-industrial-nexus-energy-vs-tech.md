@@ -11,9 +11,6 @@ toc: true
 comments: false
 math: false
 mermaid: false
-image:
-  path: https://envs.sh/uil.jpg
-  alt: image of a board room meeting with a headless person and a bunch of people in business attire talking about energy transition
 ---
 
 _Let's start off with the Ideological Divide between Renewables vs. Conventional Energy_\

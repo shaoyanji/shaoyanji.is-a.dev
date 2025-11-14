@@ -11,9 +11,6 @@ toc: true
 comments: false
 math: true
 mermaid: true
-image:
-  path: https://envs.sh/uw0.jpg
-  alt: a sexy devil on a computer
 ---
 
 ## AI Slop Content Management
@@ -68,5 +65,4 @@ What's more, this little task file or snippet can work near universally for your
 The dependencies are even easily installabe on windows with `scoop install tgpt go-task`
 
 And yes, this is still a distraction and slop:
-![female devil lucifer sexy creating computers with a boulder witch lady](https://envs.sh/uwR.jpg)
 But it is quite nifty. And believe it or not. This might be a blog post that I will come back to again and again to copy and paste this generator of pixels from pixels of txt.

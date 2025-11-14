@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A Taskfile-Powered Blog Engine
-date: 2025-07-01 
-description: Many people look at the framework as the fulcrum of the blog. I believe that its the tooling that makes a blog both fun to read and write 
+date: 2025-07-01
+description: Many people look at the framework as the fulcrum of the blog. I believe that its the tooling that makes a blog both fun to read and write
 author: matt
 categories: [Blogging]
 tags: [energy, risk, cybersecurity, technology]
@@ -11,9 +11,6 @@ toc: true
 comments: false
 math: false
 mermaid: false
-image:
-  path: https://envs.sh/uLG.jpg
-  alt: king arthur pulling the sword from the anvil
 ---
 
 ## A way to integrate Taskfile with Jekyll without dependencies on local system
@@ -40,17 +37,17 @@ date +%Y-%m-%d
 ```
 
 ### Neovim
+
 Normally vim doesn't do a graceful job at inserting stdout text and requires some macros to format the text from terminal stdout. I have discovered this little gem.
 
 ```console
-  :redir @a
-  :!task mdimg -- "the prompt for image generation" 
-  :redir END
-  :0put =@a
+:redir @a
+:!task mdimg -- "the prompt for image generation" 
+:redir END
+:0put =@a
 ```
-As discussed in my [previous post](https://shaoyanji.github.io/posts/scripts-for-ai-slop-blog-machine/), I have been using this to generate images for my blog posts as I write.
 
-![vim blogging ultimate manual](https://envs.sh/uLL.jpg)
+As discussed in my [previous post](https://shaoyanji.github.io/posts/scripts-for-ai-slop-blog-machine/), I have been using this to generate images for my blog posts as I write.
 
 ## To Do
 

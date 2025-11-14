@@ -4,9 +4,6 @@ title: How to get a free Go web server
 date: 2025-06-30
 categories: [Blog/Comparison]
 tags: [technology, analysis, Go]
-image:
-  path: https://envs.sh/ubd.jpg
-  alt: A fantasy tree because tree rhymes with free
 ---
 
 # Best things in life are free
@@ -57,7 +54,6 @@ cd kelly-wasm.git
 make serve
 ```
 
-![image of a hacker man](https://envs.sh/uPW.jpg)
 If it doesn work, then editing the `server.go` and replacing the port to the opened port you have opened should do the trick.
 
 And there you have it. Hacking a free server to run portable ephemeral dynamic server. I am not sure how well this would work unattended even a production grade web app because processes can be killed by a daemon. But since this server isn't some docker container, this capability to run customized server content can be a boon to whatever projects you are trying to hack up.

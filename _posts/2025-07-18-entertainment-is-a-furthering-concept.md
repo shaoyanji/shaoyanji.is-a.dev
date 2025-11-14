@@ -11,9 +11,6 @@ toc: true
 comments: false
 math: false
 mermaid: false
-image:
-  path: https://envs.sh/bNM.jpg
-  alt: a snowglobe website
 ---
 
 ## Updating the ol' website
@@ -39,10 +36,12 @@ Blogposts should not take up more than 20 minutes to write.
 There is also the appeal to go ultra brtualistic. A [post](https://x.com/melqtx/status/1946249533543076159) shows that 14kB pages can perhaps shave half a second off of page load times. There is something called a TCP slow algorithm that kicks in when a page is above 15 kB. Currently, my [website](https://bountystash.com) is about 3.2 MB per a [cloudflare scan](https://radar.cloudflare.com/scan/6f0d1425-5757-428e-87c0-6144d7133f60/summary). So I am currently looking at a 20x refactor of website. I remembered the hero image alone was 650 kB. Since the uncompressed total page must be under. I would have to make do with whatever clever arrangements I can with ascii to get the effects that I am aiming for.
 
 ## Things I've been practicing
+
 - jp2a as an alternative to the images I use
 - cmark --unsafe as an alternative to pandoc
 - alpinejs might actually be to big for the brutalism
 
 ## Things I've been avoiding
+
 - hugo
 - jekyll

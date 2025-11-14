@@ -11,9 +11,6 @@ toc: true
 comments: false
 math: false
 mermaid: false
-image:
-  path: https://envs.sh/Fnf.jpg
-  alt: A frustrated computer programmer throwing up papers into the air in anxiety
 ---
 
 ## I'm making yet another static site generator

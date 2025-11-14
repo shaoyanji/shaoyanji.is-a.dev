@@ -4,9 +4,6 @@ title: Is this the last post for this blog?
 date: '2024-11-13 09:51:38 +0000'
 categories: [Blog/Comparison]
 tags: [technology, risk, analysis]
-image:
-  path: https://envs.sh/uP8.jpg
-  alt: nixos blogging away
 ---
 
 Ever since switching to Nix, I've learned a lot about declarative workflow and I love Nix. The big trade-off has been that declarative functional programmign workflow is pretty hard and requires a lot of effort. But the benefits are that things just simply work when it comes to dependency management and state management.
@@ -28,6 +25,3 @@ nix run home-manager/master -- init --switch
 ```
 
 This will install home-manager but here I ran into a few problems. The next instance of shell that I opened didn't have any of the profiles loaded and I diagnosed the origin of the problem by looking into /etc/profile and /etc/bashrc. It seems like Fedora default bashrc and profiles do not like using nix as a default distro and it's probably one of the downsides to using determinate installer whereas the default [NixOS](https://nixos.org/) installer tries to append a line in /etc/bashrc that loads nix-profile. But maybe it was just because I didn't set a channel. Anywho, I wrote a few home environment variables to initialize the hm script and an extra bash config if statement for this particular machine. It's a really ugly implementation of this in my nixconfig but the idea is that I want this repo [My Nixconfig](https://github.com/shaoyanji/nixconfig) to kind of demo a personal, live multi-host config that is open-source, manages secrets and displays the shell.nix and tooling needed for fast navigation through 100k packages. I think a familiarity with the nix ecosystem is invaluable because it allows any architecture or system to overcome some of the limitations of their repos lack of packages, something I went through when trying to set up a desktop environment on my raspberry pi on Arch.
-
-![nixos on a computer](https://envs.sh/uwE.jpg)
-If you have any questions or comments, please feel free to reach out to me on Twitter or Discord.
