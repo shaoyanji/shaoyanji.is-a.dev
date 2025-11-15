@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://shaoyanji.github.io"
+url: "https://shaoyanji.github.io/shaoyanji.is-a.dev"
 
 github:
   username: shaoyanji # change to your github username
@@ -77,7 +77,7 @@ img_cdn:
 # img_cdn: "https://envs.sh"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/fav/icons/android-chrome-512x512.png
+avatar: assets/img/favicons/android-chrome-512x512.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -127,7 +127,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://shaoyanji.is-a.dev"
+baseurl: "https://shaoyanji.github.io/shaoyanji/shaoyanji.is-a.dev"
 
 # ------------ The following options are not recommended to be modified ------------------
 
