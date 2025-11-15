@@ -127,7 +127,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://shaoyanji.github.io/shaoyanji/shaoyanji.is-a.dev"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
