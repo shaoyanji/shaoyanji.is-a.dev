@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Navigating Chaos with the Longzhong Plan
-categories: [Project/Longzhong Plan]
+author: matt
+categories: [Project, Longzhong Plan]
 tags: [energy, risk, cybersecurity, technology, chaos, longzhong_plan, liu_bei, han_dynasty, strategy, career_consultancy, react_native, cross_platform_development, skill_inventory, innovation, technology, uncertainty, guidance, ambition, future_planning]
 image:
   path: https://w.wallhaven.cc/full/k9/wallhaven-k9oo1q.jpg
@@ -23,5 +24,7 @@ As we embark on this journey together, I invite you to embrace the spirit of the
 Join me as we navigate the chaos, armed with the wisdom of the past and the tools of the present, towards a future filled with promise and possibility.
 
 Stay tuned for updates as we progress on this exciting journey!
+
+Enjoy this video:
 
 {% include embed/youtube.html src='_70EH0hQFUI' %}

@@ -4,7 +4,7 @@ title: A Conflicted Industrial Nexus - energy vs tech
 date: 2024-03-20 23:11 +0000
 description: exploring whether big energy business has a tech problem stemming from industry biases and/or disillusionment from the ideological battle in climate change
 author: matt
-categories: [Blog]
+categories: [Blog, Energy]
 tags: [energy, risk, cybersecurity, technology]
 pin: true
 toc: true
