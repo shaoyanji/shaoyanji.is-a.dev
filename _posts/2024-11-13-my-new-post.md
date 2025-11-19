@@ -2,7 +2,7 @@
 layout: post
 title: Is this the last post for this blog?
 date: '2024-11-13 09:51:38 +0000'
-categories: [Blog/Comparison]
+categories: [Blog]
 tags: [technology, risk, analysis]
 ---
 

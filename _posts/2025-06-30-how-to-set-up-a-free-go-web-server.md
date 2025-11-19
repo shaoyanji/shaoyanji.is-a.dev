@@ -2,7 +2,7 @@
 layout: post
 title: How to get a free Go web server
 date: 2025-06-30
-categories: [Blog/Comparison]
+categories: [Blog]
 tags: [technology, analysis, Go]
 ---
 

@@ -4,7 +4,7 @@ title: Scripts and Blogging Engines for an AI Slop Universe
 date: 2025-06-31
 description: blogging with the common observed energy stacks are about to be as outdated as 70s style terminals but there is some lessons to be learned about automation
 author: matt
-categories: [Blogging]
+categories: [Blog]
 tags: [energy, cybersecurity, technology]
 pin: true
 toc: true

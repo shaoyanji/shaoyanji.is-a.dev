@@ -2,7 +2,7 @@
 layout: post
 title: Psst, Nix and blogging
 date: 2024-11-13
-categories: [Blog/Comparison]
+categories: [Blog]
 tags: [technology, risk, analysis]
 ---
 
