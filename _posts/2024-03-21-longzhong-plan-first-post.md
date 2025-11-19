@@ -23,3 +23,5 @@ As we embark on this journey together, I invite you to embrace the spirit of the
 Join me as we navigate the chaos, armed with the wisdom of the past and the tools of the present, towards a future filled with promise and possibility.
 
 Stay tuned for updates as we progress on this exciting journey!
+
+{% include embed/youtube.html src='_70EH0hQFUI' %}
