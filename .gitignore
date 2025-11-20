@@ -30,3 +30,4 @@ devenv.local.nix
 .pre-commit-config.yaml
 
 *.jpg
+**/.DS_Store
