@@ -51,16 +51,14 @@ tasks:
     cmds:
       - exit
   post:
-    vars:
-      DATE:
-        sh: date "+%Y-%m-%d"
-      TITLE:
-        sh: gum input --prompt 'Title> '
-      SLUG:
-        sh: echo {{.TITLE}} | sed -E 's/(.*)/\L\1/; s/ /_/g'
     cmds:
-      - "printf '%s\n' '---' 'layout: post' 'title: {{.TITLE}}' 'date: {{.DATE}}' 'author: matt' 'categories: [Blog]' 'tags: [technology]' 'image:' '  path: /assets/img/' '  alt: banner' '---' '' '' > ./_posts/{{.DATE}}-{{.SLUG}}.md"
-      - $EDITOR ./_posts/{{.DATE}}-{{.SLUG}}.md
+      - ./new-post.sh
+  list-tags:
+    cmds:
+      - ./list-tags.sh
+  list-categories:
+    cmds:
+      - ./list-categories.sh
   yt:
     cmds:
       - ytsearch "$(gum input --value='' --prompt 'search> ')"
