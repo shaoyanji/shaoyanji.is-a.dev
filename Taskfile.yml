@@ -1,0 +1,67 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  JEKYLL: bundle exec jekyll
+  WHOAMI: whoami
+
+tasks:
+  enternixshell:
+    cmds:
+      - nix-shell
+      - gem install bundle && bundle install && bundle && bundle exec jekyll serve --incremental
+  default:
+    cmds:
+      # - git pull
+      - task $(cat ./Taskfile.yml | yq '.tasks|keys|.[]' | fzf)
+    silent: true
+  jserve:
+    cmds:
+      - "{{.JEKYLL}} serve"
+    silent: true
+  jdraft:
+    cmds:
+      - '{{.JEKYLL}} draft "My new draft"'
+    silent: true
+  jpost:
+    cmds:
+      - '{{.JEKYLL}} post "My new post" --timestamp-format "%Y-%m-%d %H:%M:%S %z"'
+    silent: true
+  push:
+    cmds:
+      - git add .
+        && git commit -m "fast push"
+        && git push
+        && git status
+        && echo "git push success"
+        || echo "git push failed"
+  mdimg:
+    cmds:
+      - echo -n '![{{.CLI_ARGS}}]('$(task awkimg -- {{.CLI_ARGS}})')'
+    silent: true
+  awkimg:
+    vars:
+      TGPT:
+        sh: which tgpt
+    cmds:
+      - curl --no-progress-meter -F"file=@$('{{.TGPT}}' --img --height 630 --width 1200 "{{.CLI_ARGS}}" | awk '{match($0, /Saved image as ([^ ]+\.jpg)/, arr);  if (arr[1] != "") {print arr[1]} }')" https://envs.sh
+    silent: true
+  exit:
+    cmds:
+      - exit
+  post:
+    cmds:
+      - ./new-post.sh
+  list-tags:
+    cmds:
+      - ./list-tags.sh
+  list-categories:
+    cmds:
+      - ./list-categories.sh
+  yt:
+    cmds:
+      - ytsearch "$(gum input --value='' --prompt 'search> ')"
+  liquidyt:
+    cmds:
+      - printf '%s' '{% include embed/youtube.html id='{ID}' %}'
