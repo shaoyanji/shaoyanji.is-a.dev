@@ -6,6 +6,9 @@ description: Pruning packages by reported size reclaims almost nothing. Exclusiv
 author: matt
 categories: [Blog, Nix]
 tags: [nix, analysis, technology]
+image:
+  path: /assets/img/banners/2026-10-28-your-closure-is-mostly-shared-substrate.jpg
+  alt: A soft neumorphic portrait lit in grey
 pin: false
 toc: true
 comments: false
