@@ -4,6 +4,9 @@ title: Psst, Nix and blogging
 date: 2024-11-13
 categories: [Blog, Nix]
 tags: [technology, risk, analysis]
+image:
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2025-06-29-cross-comparison-on-blog.jpg
+  alt: Two open books side by side
 ---
 
 This is my new draft.

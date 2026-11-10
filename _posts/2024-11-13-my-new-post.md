@@ -4,6 +4,9 @@ title: Is this the last post for this blog?
 date: '2024-11-13 09:51:38 +0000'
 categories: [Blog]
 tags: [technology, risk, analysis]
+image:
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2024-11-13-my-new-post.jpg
+  alt: A typewriter beside a closed laptop
 ---
 
 Ever since switching to Nix, I've learned a lot about declarative workflow and I love Nix. The big trade-off has been that declarative functional programmign workflow is pretty hard and requires a lot of effort. But the benefits are that things just simply work when it comes to dependency management and state management.

@@ -6,6 +6,9 @@ description: exploring whether big energy business has a tech problem stemming f
 author: matt
 categories: [Blog, Energy]
 tags: [energy, risk, cybersecurity, technology]
+image:
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2024-03-20-a-conflicted-inter-industrial-nexus-energy-vs-tech.jpg
+  alt: A power station and a datacentre side by side
 pin: true
 toc: true
 comments: false

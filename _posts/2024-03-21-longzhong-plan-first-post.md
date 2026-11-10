@@ -5,8 +5,8 @@ author: matt
 categories: [Project, Longzhong Plan]
 tags: [energy, risk, cybersecurity, technology, chaos, longzhong_plan, liu_bei, han_dynasty, strategy, career_consultancy, react_native, cross_platform_development, skill_inventory, innovation, technology, uncertainty, guidance, ambition, future_planning]
 image:
-  path: https://w.wallhaven.cc/full/k9/wallhaven-k9oo1q.jpg
-  alt: Three Kingdoms wallpaper
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2024-03-21-longzhong-plan-first-post.jpg
+  alt: An old war map on a wooden table
 ---
 
 In the midst of today's turbulent world, where chaos reigns and uncertainty looms on the horizon, many of us find ourselves feeling lost. The rapid pace of technological advancement, the specter of global conflicts, and the ever-changing landscape of society leave us grappling with internal conflicts and unspoken anxieties.
