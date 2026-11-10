@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2026-10-28-three-minutes-of-boot-because-dns-and-my-nas-disagreed.jpg
+  alt: "A DNS query knocking on a closed server room door"
 ---
 
 One machine started taking 3 minutes 40 seconds to boot. The one before that took 8 seconds. Nothing in the machine's own config had changed, which is the kind of sentence that usually means the problem is somewhere else entirely.

@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2025-07-21-grokking-nixos-github-actions-cicd.jpg
+  alt: "A pipeline of identical small boxes"
 ---
 
 ## I already used up all of my free 1500 mins CI/CD on Garnix

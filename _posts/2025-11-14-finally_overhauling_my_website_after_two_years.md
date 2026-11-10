@@ -4,6 +4,9 @@ title: Finally overhauling my website after two years
 date: 2025-11-14
 categories: [Blog]
 tags: [technology]
+image:
+  path: /assets/img/banners/2025-11-14-finally_overhauling_my_website_after_two_years.jpg
+  alt: "A dusty desk with a clean blueprint on it"
 ---
 
 I was doing some benchmarking on my website and two consecutive results ended up with time to load at 2 minutes. I'm not sure if this is something to do with Cloudflare getting DDoSed but I'm going with a much lighter-weight approach with 14kb max.

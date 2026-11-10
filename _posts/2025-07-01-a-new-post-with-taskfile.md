@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2025-07-01-a-new-post-with-taskfile.jpg
+  alt: "A wall of labelled switches"
 ---
 
 ## A way to integrate Taskfile with Jekyll without dependencies on local system

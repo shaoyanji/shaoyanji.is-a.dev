@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2026-10-28-the-imperative-generator-trap.jpg
+  alt: "A machine that copies itself"
 ---
 
 Every third-party daemon now ships a convenience command: `hermes gateway install`, `foo service enable`, `bar setup`. On a normal Linux box it is helpful. On NixOS it is a small act of vandalism, and it took me one crash loop to learn exactly how it does the damage.

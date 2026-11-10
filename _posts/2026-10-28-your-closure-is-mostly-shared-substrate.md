@@ -8,7 +8,7 @@ categories: [Blog, Nix]
 tags: [nix, analysis, technology]
 image:
   path: /assets/img/banners/2026-10-28-your-closure-is-mostly-shared-substrate.jpg
-  alt: A soft neumorphic portrait lit in grey
+  alt: "Two overlapping store graphs, most nodes shared"
 pin: false
 toc: true
 comments: false

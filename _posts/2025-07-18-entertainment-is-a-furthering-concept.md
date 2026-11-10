@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2025-07-18-entertainment-is-a-furthering-concept.jpg
+  alt: "A cinema screen in an empty field"
 ---
 
 ## Updating the ol' website

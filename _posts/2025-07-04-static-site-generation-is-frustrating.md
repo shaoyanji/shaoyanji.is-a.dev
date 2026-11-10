@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2025-07-04-static-site-generation-is-frustrating.jpg
+  alt: "A printing press jammed with paper"
 ---
 
 ## I'm making yet another static site generator

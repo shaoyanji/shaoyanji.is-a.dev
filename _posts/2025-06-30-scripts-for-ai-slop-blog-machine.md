@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: true
 mermaid: true
+image:
+  path: /assets/img/banners/2025-06-30-scripts-for-ai-slop-blog-machine.jpg
+  alt: "A factory line stamping out identical articles"
 ---
 
 ## AI Slop Content Management
