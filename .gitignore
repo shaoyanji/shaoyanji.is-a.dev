@@ -31,7 +31,3 @@ devenv.local.nix
 
 *.jpg
 **/.DS_Store
-
-# A banner a post's head references is site content, not a throwaway
-# upload, so the blanket *.jpg rule does not apply to this directory.
-!assets/img/banners/*.jpg

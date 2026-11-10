@@ -12,7 +12,7 @@ comments: false
 math: true
 mermaid: true
 image:
-  path: /assets/img/banners/2025-06-30-scripts-for-ai-slop-blog-machine.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2025-06-30-scripts-for-ai-slop-blog-machine.jpg
   alt: "A factory line stamping out identical articles"
 ---
 

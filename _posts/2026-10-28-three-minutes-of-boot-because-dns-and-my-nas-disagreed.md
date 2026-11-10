@@ -12,7 +12,7 @@ comments: false
 math: false
 mermaid: false
 image:
-  path: /assets/img/banners/2026-10-28-three-minutes-of-boot-because-dns-and-my-nas-disagreed.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2026-10-28-three-minutes-of-boot-because-dns-and-my-nas-disagreed.jpg
   alt: "A DNS query knocking on a closed server room door"
 ---
 

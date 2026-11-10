@@ -5,7 +5,7 @@ date: 2025-06-30
 categories: [Blog, Web]
 tags: [technology, analysis, Go]
 image:
-  path: /assets/img/banners/2025-06-30-how-to-set-up-a-free-go-web-server.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2025-06-30-how-to-set-up-a-free-go-web-server.jpg
   alt: "One small server alone in an empty room"
 ---
 

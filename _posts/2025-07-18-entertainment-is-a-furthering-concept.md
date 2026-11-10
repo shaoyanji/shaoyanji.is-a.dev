@@ -12,7 +12,7 @@ comments: false
 math: false
 mermaid: false
 image:
-  path: /assets/img/banners/2025-07-18-entertainment-is-a-furthering-concept.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2025-07-18-entertainment-is-a-furthering-concept.jpg
   alt: "A cinema screen in an empty field"
 ---
 

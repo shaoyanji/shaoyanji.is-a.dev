@@ -12,7 +12,7 @@ comments: false
 math: false
 mermaid: false
 image:
-  path: /assets/img/banners/2026-10-28-the-imperative-generator-trap.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2026-10-28-the-imperative-generator-trap.jpg
   alt: "A machine that copies itself"
 ---
 
