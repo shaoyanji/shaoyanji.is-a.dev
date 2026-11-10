@@ -7,7 +7,7 @@ author: matt
 categories: [Blog, Nix]
 tags: [nix, analysis, technology]
 image:
-  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2026-10-28-your-closure-is-mostly-shared-substrate.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2026-10-28-your-closure-is-mostly-shared-substrate.jpg
   alt: "Two overlapping store graphs, most nodes shared"
 pin: false
 toc: true

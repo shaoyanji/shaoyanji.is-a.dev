@@ -5,7 +5,7 @@ date: 2025-11-14
 categories: [Blog]
 tags: [technology]
 image:
-  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2025-11-14-finally_overhauling_my_website_after_two_years.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2025-11-14-finally_overhauling_my_website_after_two_years.jpg
   alt: "A dusty desk with a clean blueprint on it"
 ---
 

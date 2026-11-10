@@ -12,7 +12,7 @@ comments: false
 math: false
 mermaid: false
 image:
-  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/banners/2025-07-21-grokking-nixos-github-actions-cicd.jpg
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/2025-07-21-grokking-nixos-github-actions-cicd.jpg
   alt: "A pipeline of identical small boxes"
 ---
 
