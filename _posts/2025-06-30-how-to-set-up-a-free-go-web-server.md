@@ -4,6 +4,9 @@ title: How to get a free Go web server
 date: 2025-06-30
 categories: [Blog, Web]
 tags: [technology, analysis, Go]
+image:
+  path: /assets/img/banners/2025-06-30-how-to-set-up-a-free-go-web-server.jpg
+  alt: "One small server alone in an empty room"
 ---
 
 # Best things in life are free

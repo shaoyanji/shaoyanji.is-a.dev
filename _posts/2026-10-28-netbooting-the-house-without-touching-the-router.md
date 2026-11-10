@@ -11,6 +11,9 @@ toc: true
 comments: false
 math: false
 mermaid: false
+image:
+  path: /assets/img/banners/2026-10-28-netbooting-the-house-without-touching-the-router.jpg
+  alt: "A house waking up through an invisible network"
 ---
 
 PXE has a bad reputation in home labs, and most of it comes from TFTP. The other half comes from the fact that netbooting normally means owning DHCP: options 66 and 67 point a client at a boot server, and the box that hands out addresses becomes the box that can knock the whole house offline when it reboots.
