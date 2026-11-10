@@ -1,11 +1,14 @@
 ---
 layout: post
-title: RAG is bounded by what you retrieve, not which model you pick
-date: 2026-10-28
-description: Swapping models is the expensive way to fix a retrieval system whose unit of retrieval is a whole document.
-author: matt
+title: "RAG is bounded by what you retrieve, not which model you pick"
+date: 2026-11-10
 categories: [Blog, Analysis]
-tags: [ai, analysis, technology]
+tags: [ai, analysis, retrieval]
+description: "Swapping models is the expensive way to fix a retrieval system whose unit of retrieval is a whole document."
+author: matt
+image:
+  path: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/assets/blog/rag-is-bounded-by-what-you-retrieve.jpg
+  alt: "RAG is bounded by what you retrieve, not which model you pick"
 pin: false
 toc: true
 comments: false
