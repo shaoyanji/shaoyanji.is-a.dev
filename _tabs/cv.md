@@ -11,7 +11,7 @@ order: 5
 The CV is typeset from a single source at build time and published as a PDF, so this
 link always serves the current version.
 
-[Download the CV (PDF)](/assets/files/cv.pdf)
+<a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a>
 
 ## What it covers
 
