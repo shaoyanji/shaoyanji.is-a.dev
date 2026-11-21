@@ -9,9 +9,10 @@ order: 5
 **Matt Ji** — Energy | Risk | Tech
 
 The CV is typeset from a single source at build time and published as a PDF, so this
-link always serves the current version.
+links always serve the current version.
 
-<a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a>
+<a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a> ·
+<a href="/assets/files/cv-de.pdf" download>Lebenslauf herunterladen (PDF)</a>
 
 ## What it covers
 
