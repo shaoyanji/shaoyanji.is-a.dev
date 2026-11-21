@@ -59,6 +59,10 @@ tasks:
   list-categories:
     cmds:
       - ./list-categories.sh
+  cvcheck:
+    cmds:
+      - ./check-cv-links.sh
+    silent: true
   yt:
     cmds:
       - ytsearch "$(gum input --value='' --prompt 'search> ')"
