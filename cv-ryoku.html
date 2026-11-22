@@ -1,0 +1,287 @@
+---
+layout: ryoku
+title: Curriculum Vitae
+description: Matt Ji — systems and security engineer. Energy and risk work, solar asset management, and fleet automation in Go and Nix.
+permalink: /cv/ryoku/
+---
+
+<header>
+  <div class="kicker">
+    <span class="eyebrow">Curriculum vitae · 履</span>
+    <span class="micro">Systems · Security · Energy</span>
+  </div>
+  <h1>Matt Ji</h1>
+  <p class="lead">
+    Systems and security engineer. Most of my working life has gone into making
+    operational data usable — solar asset management first, then thirteen NixOS
+    hosts from one flake.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary" href="/assets/files/cv.pdf" download>Download the CV (PDF)</a>
+    <a class="btn btn-ghost" href="/assets/files/cv-de.pdf" download lang="de" hreflang="de"
+      >Lebenslauf herunterladen (PDF)</a
+    >
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">01</span>
+    <h2>Profile</h2>
+    <span class="jp" aria-hidden="true">人</span>
+  </div>
+  <p class="lead">
+    I ran asset management for a solar portfolio above $100M for four years: yield
+    models that passed bank audits, mobile field capture, and telemetry
+    reconciliation when sensors went missing.
+  </p>
+  <p>
+    Since 2023 I have run thirteen NixOS hosts from one flake, with an SSH
+    certificate authority and encrypted secrets per host. The free hours go to
+    CISA's KEV catalogue, building tools that turn the exploited list into a patch
+    order a team can work through.
+  </p>
+  <div class="sheet">
+    <div class="sheet-row">
+      <span class="k">Based</span>
+      <span class="v">Gutach im Breisgau, Germany</span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Working</span>
+      <span class="v">Remote · CET, US-East overlap</span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Languages</span>
+      <span class="v">English (native) · German (B2)</span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Status</span>
+      <span class="v"
+        ><span class="badge live"><i></i>US citizen · German permanent residence</span></span
+      >
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">02</span>
+    <h2>Experience</h2>
+    <span class="jp" aria-hidden="true">歴</span>
+  </div>
+
+  <article class="entry">
+    <div class="entry-head">
+      <h3>bountystash: deterministic work engine</h3>
+      <span class="micro">2020 — 2025</span>
+    </div>
+    <div class="label">Founder and engineer</div>
+    <p>
+      A request arrives as prose and has drifted by the time the work is done. I
+      built a Go service that records it as an immutable document, so a job's state
+      replays a month later and two people can agree on what was asked. One binary
+      serves HTML, JSON and a terminal UI.
+    </p>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head">
+      <h3>Energy telemetry and valuation</h3>
+      <span class="micro">2016 — 2020</span>
+    </div>
+    <div class="label">Asset manager · O3 Energy</div>
+    <p>
+      Four years running the numbers behind a solar portfolio above $100M: yield and
+      valuation models that satisfied bank auditors, mobile capture for field
+      technicians, and a reconciliation step that turned a dead sensor into a known
+      error instead of a good month.
+    </p>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head">
+      <h3>Smart Energy 360</h3>
+      <span class="micro">2015 — 2016</span>
+    </div>
+    <div class="label">Director of Sustainability</div>
+    <p>
+      Built and ran a project pipeline above $100M for commercial clients moving to
+      cleaner electricity, with the sustainability strategy and the risk advice that
+      went with it.
+    </p>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head">
+      <h3>Fraunhofer ISE</h3>
+      <span class="micro">2012</span>
+    </div>
+    <div class="label">Research assistant</div>
+    <p>
+      Measured heliostat imperfections with interferometry: C++ for the instrument,
+      Python for analysis and 3D geometry.
+    </p>
+  </article>
+
+  <article class="entry">
+    <div class="entry-head">
+      <h3>Halliburton</h3>
+      <span class="micro">2010 — 2011</span>
+    </div>
+    <div class="label">Associate Technical Professional</div>
+    <p>
+      Two frac crews in the Bakken shale: chemicals and equipment faults fixed on
+      site, twelve-hour shifts, and the safety training for the crew.
+    </p>
+  </article>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">03</span>
+    <h2>Projects</h2>
+    <span class="jp" aria-hidden="true">作</span>
+  </div>
+  <div class="grid">
+    <div class="cell">
+      <span class="label">2023 — now</span>
+      <h3>nixconfig</h3>
+      <p>
+        Thirteen NixOS hosts rebuilt from one repository: certificates, per-host
+        secrets and the operator commands come from the same place, and the same
+        check runs in CI and before a deploy.
+      </p>
+    </div>
+    <div class="cell">
+      <span class="label">2026 — now</span>
+      <h3>kelly-svg</h3>
+      <p>
+        KEV entries grouped into effort clusters with exposure per cluster, giving a
+        patch order that follows effort and reach instead of the order the catalogue
+        happens to use.
+      </p>
+    </div>
+    <div class="cell">
+      <span class="label">2026 — now</span>
+      <h3>kev-time</h3>
+      <p>
+        CISA's Known Exploited Vulnerabilities catalogue drawn as a time series in
+        static SVG, so a trend is readable before a report exists and the page still
+        loads on a phone during an incident.
+      </p>
+    </div>
+    <div class="cell">
+      <span class="label">2026 — now</span>
+      <h3>Vulnerability operations concept</h3>
+      <p>
+        A sample vulnerability programme built from KEV data: an exposure table,
+        effort clusters, a 90-day method and a service model. Sample data throughout,
+        labelled as such.
+      </p>
+    </div>
+    <div class="cell">
+      <span class="label">2026 — now</span>
+      <h3>matt.bountystash.com</h3>
+      <p>
+        Personal site: two languages from one template, a CV rendered from the same
+        JSON, and no third-party scripts.
+      </p>
+    </div>
+    <div class="cell">
+      <span class="label">2026</span>
+      <h3>fibtransponder</h3>
+      <p>
+        A Fibonacci-radix state machine that streams a bitstream with bounded work per
+        step. A corpus benchmark falsified the first detector design, so the claim
+        narrowed.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">04</span>
+    <h2>Education</h2>
+    <span class="jp" aria-hidden="true">学</span>
+  </div>
+  <div class="sheet">
+    <div class="sheet-row">
+      <span class="k">MSc · Renewable Energy Management</span>
+      <span class="v">University of Freiburg · 2011 — 2014</span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">BSc · Petroleum Engineering</span>
+      <span class="v">Colorado School of Mines · 2006 — 2010</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">05</span>
+    <h2>Skills</h2>
+    <span class="jp" aria-hidden="true">技</span>
+  </div>
+  <div class="sheet">
+    <div class="sheet-row">
+      <span class="k">Systems and concurrency</span>
+      <span class="v"
+        >Go · channels and state machines · PostgreSQL · Redis · gRPC and REST · Kafka
+        · Python</span
+      >
+    </div>
+    <div class="sheet-row">
+      <span class="k">Declarative infrastructure</span>
+      <span class="v"
+        >NixOS · Nix flakes · SSH certificate authority · SOPS and age · Tailscale ·
+        ZFS and btrfs · systemd · CI gates</span
+      >
+    </div>
+    <div class="sheet-row">
+      <span class="k">Domain</span>
+      <span class="v"
+        >Asset valuation · solar telemetry reconciliation · risk models · bank audit
+        reporting · KEV and CVSS · vulnerability programme design · Typst</span
+      >
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <span class="eyebrow">06</span>
+    <h2>Elsewhere</h2>
+    <span class="jp" aria-hidden="true">他</span>
+  </div>
+  <div class="sheet">
+    <div class="sheet-row">
+      <span class="k">Email</span>
+      <span class="v"><a href="mailto:matt@bountystash.com">matt@bountystash.com</a></span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Web</span>
+      <span class="v"><a href="https://matt.bountystash.com">matt.bountystash.com</a></span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Code</span>
+      <span class="v"><a href="https://github.com/shaoyanji">github.com/shaoyanji</a></span>
+    </div>
+    <div class="sheet-row">
+      <span class="k">Profile</span>
+      <span class="v"
+        ><a href="https://www.linkedin.com/in/mattji">linkedin.com/in/mattji</a> ·
+        <a href="https://www.xing.com/profile/Shaoyan_Ji">xing.com/profile/Shaoyan_Ji</a></span
+      >
+    </div>
+  </div>
+
+  <div class="bone">
+    <div class="eyebrow">Keep it going · 支</div>
+    <h3>Available for systems and security work.</h3>
+    <p style="color: inherit; margin: 0">
+      Remote from Germany, with US-East overlap.
+      <a href="mailto:matt@bountystash.com">matt@bountystash.com</a>
+    </p>
+  </div>
+</section>

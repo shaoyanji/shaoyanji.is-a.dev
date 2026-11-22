@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    {%- assign description = page.description | default: site.description | strip_html | strip_newlines %}
+    <meta name="description" content="{{ description | escape }}" />
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}" />
+    <meta property="og:description" content="{{ description | escape }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    {%- if site.social_preview_image %}
+      <meta property="og:image" content="{{ site.social_preview_image }}" />
+      {%- assign image_alt = page.image.alt | default: site.social_preview_image_alt %}
+      {%- if image_alt %}
+        <meta property="og:image:alt" content="{{ image_alt | escape }}" />
+      {%- endif %}
+    {%- endif %}
+    <meta name="twitter:card" content="{{ site.twitter.card | default: 'summary_large_image' }}" />
+    <meta name="theme-color" content="#0b0c1b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Noto+Sans+JP:wght@400&family=Space+Grotesk:wght@400;500&family=Space+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{{ '/assets/css/ryoku.css' | relative_url }}" />
+  </head>
+  <body class="ryoku">
+    <div class="wrap">
+      {{ content }}
+      <footer>
+        <span class="eyebrow">{{ site.title }} · {{ page.title | default: 'CV' }}</span>
+        <span class="micro">Ryoku · NixOS edition</span>
+        <span class="eyebrow"><a href="{{ '/' | relative_url }}">Home</a> · <a href="/cv/">CV</a></span>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -14,6 +14,9 @@ links always serve the current version.
 <a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a> ·
 <a href="/assets/files/cv-de.pdf" download lang="de" hreflang="de">Lebenslauf herunterladen (PDF)</a>
 
+There is also a <a href="/cv/ryoku/">Ryoku-styled CV page</a> with the same content
+as the PDF.
+
 ## What it covers
 
 - **Experience** — energy and risk work, with the operations and tooling behind it.
