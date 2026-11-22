@@ -8,7 +8,7 @@ order: 5
 
 **Matt Ji** — Energy | Risk | Tech
 
-The CV is typeset from a single source at build time and published as a PDF, so this
+The CV is typeset from a single source at build time and published as a PDF, so these
 links always serve the current version.
 
 <a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a> ·
