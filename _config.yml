@@ -83,6 +83,9 @@ avatar: assets/img/favicons/android-chrome-512x512.png
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: https://res.cloudinary.com/de1eajx01/image/upload/f_jpg,q_auto,w_1200,h_630,c_fill/shaoyanji/home.jpg
+# Alternative text for the preview image above, used when a page declares no
+# `image.alt` of its own. Leave empty to emit no alt rather than a wrong one.
+social_preview_image_alt: "Matt Ji — Energy | Risk | Tech"
 
 # boolean type, the global switch for TOC in posts.
 toc: true

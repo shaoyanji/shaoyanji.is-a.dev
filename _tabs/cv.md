@@ -12,7 +12,7 @@ The CV is typeset from a single source at build time and published as a PDF, so 
 links always serve the current version.
 
 <a href="/assets/files/cv.pdf" download>Download the CV (PDF)</a> ·
-<a href="/assets/files/cv-de.pdf" download>Lebenslauf herunterladen (PDF)</a>
+<a href="/assets/files/cv-de.pdf" download lang="de" hreflang="de">Lebenslauf herunterladen (PDF)</a>
 
 ## What it covers
 

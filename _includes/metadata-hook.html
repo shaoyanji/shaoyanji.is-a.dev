@@ -1,0 +1,22 @@
+{%- comment -%}
+  jekyll-seo-tag emits `og:image:alt` and `twitter:image:alt` only when the page
+  declares `image.alt`. Every page that falls back to `site.social_preview_image`
+  therefore publishes an image with no alternative text. Fill the gap here rather
+  than duplicating what the seo tag already wrote, and prefer the page title for a
+  post hero over the site-wide description.
+{%- endcomment -%}
+
+{%- if page.image.alt -%}
+  {%- comment -%} jekyll-seo-tag already emitted both tags. {%- endcomment -%}
+{%- else -%}
+  {%- comment -%} A post hero is its own picture; every other page shows the site card. {%- endcomment -%}
+  {%- if page.image -%}
+    {%- assign image_alt = page.title -%}
+  {%- else -%}
+    {%- assign image_alt = site.social_preview_image_alt -%}
+  {%- endif -%}
+  {%- if image_alt -%}
+    <meta property="og:image:alt" content="{{ image_alt | escape }}" />
+    <meta name="twitter:image:alt" content="{{ image_alt | escape }}" />
+  {%- endif -%}
+{%- endif -%}
