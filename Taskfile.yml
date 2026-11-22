@@ -60,7 +60,9 @@ tasks:
     cmds:
       - ./list-categories.sh
   cvcheck:
+    # check-cv-links.sh exits 2 without a build, so build first.
     cmds:
+      - "{{.JEKYLL}} build"
       - ./check-cv-links.sh
     silent: true
   yt:
