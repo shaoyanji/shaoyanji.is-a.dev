@@ -4,6 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+<p class="ry-eyebrow">
+  <span class="ry-num">02</span> · Profile
+  <span class="ry-jp" aria-hidden="true">人</span>
+</p>
+
 # Hi there! 👋
 
 I'm ShaoYan (Matt) Ji, a passionate developer with a background in finance and engineering. Welcome to my corner of the GitHub universe, where I blend my technical expertise with a knack for financial analysis and project management.

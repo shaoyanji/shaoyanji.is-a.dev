@@ -1,0 +1,10 @@
+---
+---
+
+/* Ryoku type faces first: the CSS @import must precede any rule. */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Noto+Sans+JP:wght@400&family=Space+Grotesk:wght@400;500&family=Space+Mono:wght@400&display=swap');
+
+@import 'main';
+
+/* Append the Ryoku layer after the theme so it overrides, never fights it. */
+@import 'ryoku-site';

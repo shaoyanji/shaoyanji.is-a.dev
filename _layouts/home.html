@@ -40,6 +40,14 @@ refactor: true
   {% endfor %}
 {% endif %}
 
+<header class="ry-section-head">
+  <p class="ry-eyebrow">
+    <span class="ry-num">01</span> · Writing
+    <span class="ry-jp" aria-hidden="true">記</span>
+  </p>
+  <p class="ry-display">{{ site.tagline }}</p>
+</header>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
