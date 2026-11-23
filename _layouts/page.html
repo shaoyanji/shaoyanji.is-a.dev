@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+<article class="px-1">
+  {% if page.layout == 'page' or page.collection == 'tabs' %}
+    {% assign tab_key = page.title | downcase %}
+    {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    {% if page.ry_label %}
+      <header class="ry-section-head">
+        <p class="ry-eyebrow">
+          <span class="ry-num">{{ page.ry_num }}</span> · {{ page.ry_label }}
+          <span class="ry-jp" aria-hidden="true">{{ page.ry_jp }}</span>
+        </p>
+        <h1 class="ry-sr-only">{{ title }}</h1>
+      </header>
+    {% else %}
+      <h1 class="dynamic-title">
+        {{ title }}
+      </h1>
+    {% endif %}
+    <div class="content">
+      {{ content }}
+    </div>
+  {% else %}
+    {{ content }}
+  {% endif %}
+</article>

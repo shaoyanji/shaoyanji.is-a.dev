@@ -1,7 +1,11 @@
 ---
 # the default layout is 'page'
+title: CV
 icon: fas fa-file-pdf
 order: 5
+ry_num: "05"
+ry_label: CV
+ry_jp: 歴
 ---
 
 # Curriculum Vitae

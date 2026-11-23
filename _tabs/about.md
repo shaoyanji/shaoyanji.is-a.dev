@@ -2,12 +2,10 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+ry_num: "04"
+ry_label: About
+ry_jp: 人
 ---
-
-<p class="ry-eyebrow">
-  <span class="ry-num">02</span> · Profile
-  <span class="ry-jp" aria-hidden="true">人</span>
-</p>
 
 # Hi there! 👋
 
