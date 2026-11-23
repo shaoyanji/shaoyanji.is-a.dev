@@ -7,7 +7,16 @@
    Rules of the system applied below: paper + warm ink, hairlines at 13/26/42 %
    ink instead of boxes, Fraunces for statements, Space Grotesk for reading
    text, Space Mono uppercase for signage, one signal colour, kanji ornaments.
-   No shadow, no blur, no radius above 2px (a 50 % dot is the one exception).
+   No shadow, no blur, radius 6px with true circles the only round shape.
+
+   Ricing pass (2026-11-23) against `Ryoku-dev/Ryoku-on-NixOS`, the community
+   NixOS port: docs/ui-ux.md §Design language, §Tokens, §Type, §Geometry, §Motion.
+   That desktop resolves every value through one `Tokens.qml` and hardcodes
+   nothing; three of its rules disagreed with DESIGN.md and are followed here:
+   `Tokens.radius` is 6 ("a hair of rounding"), the interaction ladder has a third
+   pressed rung (`tint16`), and the grain texture rides the chrome rather than the
+   reading column. The ink ramp needed no change: this edition already lands at
+   11.4 / 8.6 / 6.3 / 5.1 : 1 against the desktop's 12.2 / 9.0 / 6.6 / 4.6.
    --------------------------------------------------------------------------- */
 
 :root {
@@ -23,6 +32,7 @@
   --ry-line-strong: color-mix(in srgb, var(--ry-ink) 42%, transparent);
   --ry-tint5: color-mix(in srgb, var(--ry-ink) 5%, transparent);
   --ry-tint10: color-mix(in srgb, var(--ry-ink) 10%, transparent);
+  --ry-tint16: color-mix(in srgb, var(--ry-ink) 16%, transparent); /* pressed */
 
   --ry-signal: #9299d3;
   --ry-notice: #ce5e32;
@@ -32,7 +42,7 @@
   --ry-f-mono: 'Space Mono', ui-monospace, monospace;
   --ry-f-jp: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
 
-  --ry-radius: 2px;
+  --ry-radius: 6px;
   --ry-max: 1240px;
   --ry-gutter: clamp(1.15rem, 4vw, 3rem);
   --ry-section-y: clamp(1.75rem, 4vw, 3rem);
@@ -45,6 +55,7 @@
   --ry-s7: 48px;
   --ry-s8: 64px;
   --ry-snap: 90ms;
+  --ry-flap: 0.11s; /* a value changing, not a surface opening */
   --ry-move: 0.17s;
   --ry-swap: 0.21s;
   --ry-ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -96,12 +107,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Paper grain: the only texture, viewport-fixed, below content, never a filter
-   over text. */
-.ry-grain {
-  position: fixed;
+/* Paper grain rides the chrome, never the content. On the desktop the texture
+   sits behind a nav rail or an art surface, because a texture under text is
+   decoration the reader has to see past (docs/ui-ux.md §Design language); a
+   settings plate gets flat paper. Here the chrome is the sidebar spine, so the
+   grain is scoped to it and never crosses the reading column. `z-index: -1`
+   paints it above the spine's own paper and below its links. */
+#sidebar::before {
+  content: '';
+  position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   opacity: 0.035;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)'/%3E%3C/svg%3E");
@@ -1434,6 +1450,19 @@ article > header figcaption {
   .post-tail-bottom {
     gap: var(--ry-s4);
   }
+}
+
+/* Pressed states take the desktop's third interaction rung (`tint16`), and a
+   value change moves on `flap` rather than the 90ms hover `snap`. */
+#sidebar .nav-link:active,
+.btn:active,
+.post-tag:active,
+#tags .tag:active,
+#archives a:active,
+#related-posts .card:active {
+  background: var(--ry-tint16);
+  border-color: var(--ry-line-strong);
+  transition-duration: var(--ry-flap);
 }
 
 @media (prefers-reduced-motion: reduce) {
