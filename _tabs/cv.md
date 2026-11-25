@@ -36,32 +36,50 @@ as the PDF.
 
 ## Job search
 
-Leads logged on 25 November 2026 in three passes, from LinkedIn (Germany, Austria and the
-Netherlands) and the Stepstone metro and role pages — DevOps, SRE, platform and infrastructure
-titles, deduplicated against the pipeline's own rows and one row per employer. These are leads,
-not applications: no mail has gone out, and the send gate holds until 7 December 2026.
+Leads logged on 25 November 2026 in four passes, from LinkedIn (Germany, Austria, the
+Netherlands and Switzerland) and the Stepstone metro and role pages — DevOps, SRE, platform and
+infrastructure titles, deduplicated against the pipeline's own rows and one row per employer.
+These are leads, not applications: no mail has gone out, and the send gate holds until
+7 December 2026.
 
 | Name | Company | Role | Link |
 | :--- | :--- | :--- | :--- |
 | ABOUT YOU | ABOUT YOU SE & Co. KG | Staff Platform Engineer - Cloud Platform (all genders) | [ad](<https://www.stepstone.de/stellenangebote--Staff-Platform-Engineer-Cloud-Platform-all-genders-Hamburg-ABOUT-YOU-SE-Co-KG--14738445-inline.html>) |
+| ACP Gruppe | ACP Gruppe | Senior Systems Engineer - Cloud & Datacenter | [ad](<https://at.linkedin.com/jobs/view/senior-systems-engineer-cloud-datacenter-at-acp-gruppe-4373359602>) |
 | Acuity Analytics | Acuity Analytics | Senior Cloud/Platform Engineer (Azure, AI Platform) (m/w/d) | [ad](<https://at.linkedin.com/jobs/view/senior-cloud-platform-engineer-azure-ai-platform-m-w-d-at-acuity-analytics-4467832975>) |
+| Albert Bow | Albert Bow | Senior Site Reliability Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-site-reliability-engineer-at-albert-bow-4492698657>) |
+| Antaes | Antaes Consulting | Senior DevOps / CI/CD Engineer – Ansible & Deployment Automation | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-ci-cd-engineer-%E2%80%93-ansible-deployment-automation-at-antaes-consulting-4487147386>) |
 | APG | APG Austrian Power Grid AG | Senior DevOps Engineer – Developer Platform & CI/CD (w/m/d) | [ad](<https://at.linkedin.com/jobs/view/senior-devops-engineer-%E2%80%93-developer-platform-ci-cd-w-m-d-at-apg-austrian-power-grid-ag-4481203913>) |
 | Arivo | Arivo | (Senior) DevOps Engineer (m/w/d) | [ad](<https://at.linkedin.com/jobs/view/senior-devops-engineer-m-w-d-at-arivo-4483881771>) |
 | Autonomous Teaming | Autonomous Teaming | Senior Platform / DevOps Engineer (m/f/d) — CI/CD, Build Systems & Developer Environments | [ad](<https://de.linkedin.com/jobs/view/senior-platform-devops-engineer-m-f-d-%E2%80%94-ci-cd-build-systems-developer-environments-at-autonomous-teaming-4452462966>) |
 | BridgingIT | BridgingIT GmbH | Team Lead Cloud & DevOps (w/m/d) | [ad](<https://www.stepstone.de/stellenangebote--Team-Lead-Cloud-DevOps-wmd-Muenchen-Nuernberg-BridgingIT-GmbH--14712625-inline.html>) |
+| Commure | Commure | Senior Software Engineer, Infrastructure | [ad](<https://nl.linkedin.com/jobs/view/senior-software-engineer-infrastructure-at-commure-4489253846>) |
+| Conclusion Mission Critica | Conclusion Mission Critical | Senior Site Reliability Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-site-reliability-engineer-at-conclusion-mission-critical-4401278038>) |
+| De Bijenkorf | de Bijenkorf | Senior Site Reliability Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-site-reliability-engineer-at-de-bijenkorf-4384594772>) |
+| Deephealth | DeepHealth | Senior Site Reliability Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-site-reliability-engineer-at-deephealth-4476739671>) |
 | Deutsche Telekom MMS | Deutsche Telekom MMS GmbH | Senior Cloud & DevOps Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-Cloud-DevOps-Engineer-m-w-d-Berlin-Bonn-Dresden-Hamburg-Jena-Leipzig-Mannheim-Muenchen-Rostock-oder-Stuttgart-Deutsche-Telekom-MMS-GmbH--14548856-inline.html>) |
 | EDEKABANK | EDEKABANK AG | (Senior) DevOps Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-DevOps-Engineer-m-w-d-Hamburg-EDEKABANK-AG--12565328-inline.html>) |
 | eos.uptrade | eos.uptrade GmbH | (Senior) DevOps Engineer (m/w/d) – Mobile Ticketing | [ad](<https://www.stepstone.de/stellenangebote--Senior-DevOps-Engineer-m-w-d-Mobile-Ticketing-Hamburg-eos-uptrade-GmbH--13575747-inline.html>) |
 | exmox | exmox | Senior DevOps / Platform Engineer (f/m/x) | [ad](<https://de.linkedin.com/jobs/view/senior-devops-platform-engineer-f-m-x-at-exmox-4481691196>) |
 | Greiner | Greiner | Expert IT Core Infrastructure (all genders) | [ad](<https://at.linkedin.com/jobs/view/expert-it-core-infrastructure-all-genders-at-greiner-4492130895>) |
 | grinnberg | grinnberg GmbH | Senior Kubernetes & Linux Platform Engineer (m/w/d) in Nordmünchen | [ad](<https://www.stepstone.de/stellenangebote--Senior-Kubernetes-Linux-Platform-Engineer-m-w-d-in-Nordmuenchen-Muenchen-grinnberg-GmbH--14744510-inline.html>) |
+| Helloprint | HelloPrint | Senior Site Reliability Engineer (SRE & AI Platform Operations) | [ad](<https://nl.linkedin.com/jobs/view/senior-site-reliability-engineer-sre-ai-platform-operations-at-helloprint-4462160957>) |
 | Interhyp Gruppe | Interhyp Gruppe | Senior Site Reliability Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-Site-Reliability-Engineer-m-w-d-Berlin-Muenchen-Headquarters-Interhyp-Gruppe--14674303-inline.html>) |
+| J. Safra Sarasin | J. Safra Sarasin | Senior DevOps Platform Engineer | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-platform-engineer-at-j-safra-sarasin-4489148671>) |
+| Jobgether | Jobgether | Senior Site Reliability Engineer (Data Platform) | [ad](<https://de.linkedin.com/jobs/view/senior-site-reliability-engineer-data-platform-at-jobgether-4491833750>) |
+| Jumbo Supermarkten | Jumbo Supermarkten | Senior Kubernetes Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-kubernetes-platform-engineer-at-jumbo-supermarkten-4491171334>) |
+| Kyndryl | Kyndryl | Senior Systems Engineer Infrastructure | [ad](<https://at.linkedin.com/jobs/view/senior-systems-engineer-infrastructure-at-kyndryl-4484022609>) |
 | Market Logic | Market Logic Software | Senior DevOps Engineer | [ad](<https://de.linkedin.com/jobs/view/senior-devops-engineer-at-market-logic-software-4449547756>) |
 | Nuvotex | Nuvotex GmbH | Senior DevOps Engineer (m/w/d) | [ad](<https://de.linkedin.com/jobs/view/senior-devops-engineer-m-w-d-at-nuvotex-gmbh-4486223569>) |
 | PORR | PORR Group | Senior Platform Engineer - Linux, Kubernetes & Infrastructure (m/w/d) | [ad](<https://at.linkedin.com/jobs/view/senior-platform-engineer-linux-kubernetes-infrastructure-m-w-d-at-porr-group-4492956585>) |
+| Qim Info | Qim info | Senior DevOps Engineer - Ansible Expert | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-engineer-ansible-expert-at-qim-info-4490436218>) |
 | REPLOID | REPLOID | Senior Platform Engineer - IoT/Telemetry (w/m/d) | [ad](<https://at.linkedin.com/jobs/view/senior-platform-engineer-iot-telemetry-w-m-d-at-reploid-4471114072>) |
+| RUAG | RUAG | Senior DevOps Engineer C5I | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-engineer-c5i-at-ruag-4487436224>) |
 | Soley | Soley GmbH | Senior Software & DevOps Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-Software-DevOps-Engineer-m-w-d-81671-Muenchen-Soley-GmbH--14731777-inline.html>) |
 | STACKIT | STACKIT | (Senior) Site Reliability Engineer - STACKIT Control Plane (m/f/d) | [ad](<https://de.linkedin.com/jobs/view/senior-site-reliability-engineer-stackit-control-plane-m-f-d-at-stackit-4453110200>) |
+| Sytac | Sytac | Senior Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/senior-platform-engineer-at-sytac-4441441965>) |
+| Trival- | TRIVAL-SERVICES SA | Senior DevOps Engineer – CI/CD | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-engineer-%E2%80%93-ci-cd-at-trival-services-sa-4491618816>) |
+| TWINT | TWINT | Senior DevOps Engineer - VS Private Customers 80-100% | [ad](<https://ch.linkedin.com/jobs/view/senior-devops-engineer-vs-private-customers-80-100%25-at-twint-4493795041>) |
 | UKA | UKA – Der Energieparkentwickler | (Senior) Infrastructure & Cloud Systems Engineer (m/w/d) | [ad](<https://de.linkedin.com/jobs/view/senior-infrastructure-cloud-systems-engineer-m-w-d-at-uka-%E2%80%93-der-energieparkentwickler-4488830496>) |
 | XALT Business Consulting | XALT Business Consulting GmbH | Senior DevOps Engineer | [ad](<https://www.stepstone.de/stellenangebote--Senior-DevOps-Engineer-Munich-XALT-Business-Consulting-GmbH--14736294-inline.html>) |
 | Academic Work Germany | Academic Work Germany GmbH Hamburg | Cloud / DevOps Engineer (m/w/d) - 80% remote | [ad](<https://www.stepstone.de/stellenangebote--Cloud-DevOps-Engineer-m-w-d-80-remote-Hamburg-Academic-Work-Germany-GmbH-Hamburg--14698385-inline.html>) |
@@ -69,6 +87,7 @@ not applications: no mail has gone out, and the send gate holds until 7 December
 | Austrian Federal Computing | Austrian Federal Computing Centre | DevOps Engineer (w/m/d) | [ad](<https://at.linkedin.com/jobs/view/devops-engineer-w-m-d-at-austrian-federal-computing-centre-4488324060>) |
 | Axians ICT | Axians ICT Austria GmbH | Senior Cloud Engineering | [ad](<https://at.linkedin.com/jobs/view/senior-cloud-engineering-at-axians-ict-austria-gmbh-4467386831>) |
 | Bayerischer Rundfunk | Bayerischer Rundfunk | Data / Integration Platform Engineer (w/m/d) | [ad](<https://www.stepstone.de/stellenangebote--Data-Integration-Platform-Engineer-w-m-d-Muenchen-Freimann-Bayerischer-Rundfunk--14742606-inline.html>) |
+| BEKO | BEKO Solutions GmbH | Senior System Engineer (w/m/x) | [ad](<https://at.linkedin.com/jobs/view/senior-system-engineer-w-m-x-at-beko-solutions-gmbh-4402139067>) |
 | Doppelmayr | Doppelmayr Official | DevOps Cloud Engineer | [ad](<https://at.linkedin.com/jobs/view/devops-cloud-engineer-at-doppelmayr-official-4475468511>) |
 | ExpertStaff | ExpertStaff | Site Reliability Engineer SRE - Fulltime (m/f/d) | [ad](<https://at.linkedin.com/jobs/view/site-reliability-engineer-sre-fulltime-m-f-d-at-expertstaff-4426482405>) |
 | ICT Digital Solutions | ICT Digital Solutions GmbH | DevOps Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--DevOps-Engineer-m-w-d-Munich-ICT-Digital-Solutions-GmbH--14606146-inline.html>) |
@@ -91,11 +110,17 @@ not applications: no mail has gone out, and the send gate holds until 7 December
 | UNIQA | UNIQA Insurance Group | DevOps Engineer Observability, Automation & AI (f/m/d) | [ad](<https://at.linkedin.com/jobs/view/devops-engineer-observability-automation-ai-f-m-d-at-uniqa-insurance-group-4488172790>) |
 | Vusion Industry | Vusion Industry | Cloud DevOps Engineer(m/w/d) | [ad](<https://at.linkedin.com/jobs/view/cloud-devops-engineer-m-w-d-at-vusion-industry-4483033219>) |
 | WienIT | WienIT GmbH | DevOps Engineer (w/m/d) | [ad](<https://at.linkedin.com/jobs/view/devops-engineer-w-m-d-at-wienit-gmbh-4490100950>) |
+| 12Build | 12Build | Agentic Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/agentic-platform-engineer-at-12build-4449865147>) |
 | Baader Bank | Baader Bank AG | DevOps Engineer Platform Engineering & Operations (m/w/d) | [ad](<https://de.linkedin.com/jobs/view/devops-engineer-platform-engineering-operations-m-w-d-at-baader-bank-ag-4477682328>) |
 | BG prevent | BG prevent GmbH | IT System Engineer Cloud Technologies (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--IT-System-Engineer-Cloud-Technologies-m-w-d-Bonn-BG-prevent-GmbH--14719124-inline.html>) |
+| Brain Corp | Brain Corp | Software Engineer II, Cloud | [ad](<https://nl.linkedin.com/jobs/view/software-engineer-ii-cloud-at-brain-corp-4469499700>) |
 | BRUNATA-METRONA Köln | BRUNATA-METRONA Köln | System Engineer Hybride Infrastruktur (m/w/d) | [ad](<https://de.linkedin.com/jobs/view/system-engineer-hybride-infrastruktur-m-w-d-at-brunata-metrona-k%C3%B6ln-4490761469>) |
 | Devoteam | Devoteam | Cloud Native Engineer | [ad](<https://nl.linkedin.com/jobs/view/cloud-native-engineer-at-devoteam-4458347897>) |
+| Empiric | Empiric | Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/platform-engineer-at-empiric-4490368560>) |
+| EODC | eodc | Private Cloud Infrastructure Engineer | [ad](<https://at.linkedin.com/jobs/view/private-cloud-infrastructure-engineer-at-eodc-4491304243>) |
+| FIDDS | FIDDS | Medior Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/medior-platform-engineer-at-fidds-4487733532>) |
 | genua | genua gmbh | Linux & Network Infrastructure Engineer (d/m/w) | [ad](<https://de.linkedin.com/jobs/view/linux-network-infrastructure-engineer-d-m-w-at-genua-gmbh-4431663433>) |
+| Groupe ANSAM | Groupe ANSAM | Ingénieur·e DevOps | [ad](<https://ch.linkedin.com/jobs/view/ing%C3%A9nieur%C2%B7e-devops-at-groupe-ansam-4486857616>) |
 | GRÜNE'S LEIHHÄUSER | GRÜNE'S LEIHHÄUSER | Azure Infrastructure Engineer (m/w/d) in Frankfurt | [ad](<https://de.linkedin.com/jobs/view/azure-infrastructure-engineer-m-w-d-in-frankfurt-at-gr%C3%BCne-s-leihh%C3%A4user-4478271365>) |
 | ILF | ILF Consulting Engineers in Austria | Azure Cloud Engineer (m/w/d) | [ad](<https://at.linkedin.com/jobs/view/azure-cloud-engineer-m-w-d-at-ilf-consulting-engineers-in-austria-4492699414>) |
 | Kabisa | Kabisa - Software Artisans | DevOps Engineer | [ad](<https://nl.linkedin.com/jobs/view/devops-engineer-at-kabisa-software-artisans-4483572273>) |
@@ -103,8 +128,14 @@ not applications: no mail has gone out, and the send gate holds until 7 December
 | Liebherr | Liebherr Group | DevOps Engineer (m/f/d) | [ad](<https://de.linkedin.com/jobs/view/devops-engineer-m-f-d-at-liebherr-group-4469438708>) |
 | MIC Customs | MIC Customs Solutions | Cloud Platform Engineer (m/f/x) | [ad](<https://at.linkedin.com/jobs/view/cloud-platform-engineer-m-f-x-at-mic-customs-solutions-4481376400>) |
 | Nedap | Nedap | DevOps Engineer . | [ad](<https://nl.linkedin.com/jobs/view/devops-engineer-at-nedap-4488888564>) |
+| Next Layer Telekommunikati | next layer Telekommunikationsdienstleistungs- und Beratungs GmbH | Cloud Infrastructure Engineer (w/m/d) | [ad](<https://at.linkedin.com/jobs/view/cloud-infrastructure-engineer-w-m-d-at-next-layer-telekommunikationsdienstleistungs-und-beratungs-gmbh-4475151823>) |
 | novictus | novictus | DevOps / Cloud Engineer | [ad](<https://nl.linkedin.com/jobs/view/devops-cloud-engineer-at-novictus-4494614505>) |
+| Pascal Dietrich | Pascal Dietrich Consulting AG | DevOps (Kubernetes) Engineer | [ad](<https://ch.linkedin.com/jobs/view/devops-kubernetes-engineer-at-pascal-dietrich-consulting-ag-4462523125>) |
+| Pidso-Propagation Ideas An | PIDSO-Propagation Ideas and Solutions | IT Infrastructure & Engineering Platforms Engineer (m/w/*) | [ad](<https://at.linkedin.com/jobs/view/it-infrastructure-engineering-platforms-engineer-m-w-at-pidso-propagation-ideas-and-solutions-4486681798>) |
 | Profil Verbindungstechnik | Profil Verbindungstechnik GmbH & Co. KG | IT-Infrastruktur Spezialist / IT-Infrastructure Specialist (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--IT-Infrastruktur-Spezialist-IT-Infrastructure-Specialist-m-w-d-Friedrichsdorf-bei-Bad-Homburg-Profil-Verbindungstechnik-GmbH-Co-KG--14698872-inline.html>) |
+| Share | Share | Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/platform-engineer-at-share-4465919366>) |
+| Signicat | Signicat | Platform Engineer | [ad](<https://nl.linkedin.com/jobs/view/platform-engineer-at-signicat-4487917818>) |
+| SIX | SIX | DevOps Software Engineer (Gitlab) | [ad](<https://ch.linkedin.com/jobs/view/devops-software-engineer-gitlab-at-six-4492022357>) |
 | Social Deal | Social Deal | Devops Engineer (AWS) | [ad](<https://nl.linkedin.com/jobs/view/devops-engineer-aws-at-social-deal-4491704868>) |
 | Stadtwerke Bonn | Stadtwerke Bonn | System Engineer (m/w/d) VMware & Citrix | [ad](<https://de.linkedin.com/jobs/view/system-engineer-m-w-d-vmware-citrix-at-stadtwerke-bonn-4465205523>) |
 | SVD Büromanagement | SVD Büromanagement GmbH | Azure System Engineer | [ad](<https://at.linkedin.com/jobs/view/azure-system-engineer-at-svd-b%C3%BCromanagement-gmbh-4484426909>) |
