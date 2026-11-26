@@ -33,6 +33,12 @@ I'm ShaoYan (Matt) Ji, a passionate developer with a background in finance and e
 
 ⚡ **Fun Fact:** When I'm not coding, you can find me exploring the great outdoors or tinkering with DIY projects.
 
-## Projects Showcase
+## Recent projects
 
-Stay tuned for updates on my latest projects and contributions! From risk management tools to renewable energy initiatives, there's always something exciting in the works.
+- **[nixconfig](https://github.com/shaoyanji/nixconfig)** — a twenty-five-host NixOS fleet rebuilt from one repository: secrets encrypted per host, a schedule-rotated SSH certificate authority, the same check in CI and before a deploy, and a sentinel that logs job status, disk and memory pressure every 15 minutes.
+- **[Vulnerability operations concept](https://concept.bountystash.com/)** — a sample vulnerability programme built from CISA's KEV data: exposure per effort cluster, a 90-day method and a service model, with the sample data labelled as such throughout.
+- **[kev-time](https://jisifu.serv00.net/kev-time/)** — the Known Exploited Vulnerabilities catalogue drawn as a static SVG time series, so a trend is readable before a report exists and the page still loads on a phone during an incident.
+- **[kelly-svg](https://jisifu.serv00.net/kelly-svg/)** — KEV entries grouped into effort clusters with exposure per cluster, giving a patch order that follows effort and reach instead of the catalogue's own order.
+- **[fibtransponder](https://github.com/shaoyanji/fibtransponder)** — a Fibonacci-radix state machine that reads a bitstream with bounded work per step; a corpus benchmark falsified its first seed calibration, so the claim got smaller.
+- **[Risk calculation engine](https://github.com/shaoyanji/risk-calc)** — Green's Theorem over stochastic polygons in Go, Nushell and Awk, with a shape fuzzer that generates the shapes the engine has to survive.
+- **[matt.bountystash.com](https://matt.bountystash.com)** — the CV's other home: two languages from one template, the PDF typeset from the same JSON, and no third-party scripts.
