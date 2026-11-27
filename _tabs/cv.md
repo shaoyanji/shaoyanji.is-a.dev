@@ -222,16 +222,12 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 
 ## Tailored packets
 
-Three public copies of the packets prepared in this application round. Street address, phone
-and salary expectation are removed; email and links are kept.
+One public copy of a packet prepared in this application round. Street address, phone and
+salary expectation are removed; email and links are kept. The Flink and Pentland Firth copies
+are withdrawn: their packet builds are gone from the store, and their skills line still named
+cloud providers the CVs do not claim.
 
-1. **Flink — Platform Engineer, Berlin** —
-   <a href="/assets/files/packets/flink-platform-engineer-berlin/lebenslauf.pdf" download>CV</a> ·
-   <a href="/assets/files/packets/flink-platform-engineer-berlin/anschreiben.pdf" download>letter</a>
-2. **Pentland Firth — Senior Cloud Platform Engineer, Munich** —
-   <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/lebenslauf.pdf" download>CV</a> ·
-   <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/anschreiben.pdf" download>Anschreiben</a>
-3. **HiSolutions AG — Senior Kubernetes Expert / DevOps Engineer, remote (Deutschland)** —
+1. **HiSolutions AG — Senior Kubernetes Expert / DevOps Engineer, remote (Deutschland)** —
    <a href="/assets/files/packets/hisolutions-ag-senior-kubernetes-expert-devops-engineer/lebenslauf.pdf" download>Lebenslauf</a> ·
    <a href="/assets/files/packets/hisolutions-ag-senior-kubernetes-expert-devops-engineer/anschreiben.pdf" download>Anschreiben</a>
 
