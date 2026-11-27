@@ -43,6 +43,10 @@ Karlsruhe and Frankfurt with systems and reliability terms, then Frankfurt, Düs
 Dresden — and then opened the Stepstone arrows whose card markup hides the employer, which is
 where the newest seven names came from — DevOps, SRE, platform and infrastructure titles,
 deduplicated against the pipeline's own rows and one row per employer.
+The closing pass that day (sweep 2026-11-27w) read 1,381 postings, kept 59 inside the lane and
+younger than two days, and met no employer the table did not already hold; a direct read of twelve
+Arbeitnow pages added 78 further in-lane postings, all of them already on file, so the table stands
+at 148 rows.
 These are leads, not applications: no mail has gone out, and the send gate holds until
 7 December 2026.
 
