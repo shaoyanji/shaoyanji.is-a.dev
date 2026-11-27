@@ -38,9 +38,11 @@ as the PDF.
 
 Leads logged on 25 and 27 November 2026. The four 25 November passes read LinkedIn (Germany,
 Austria, the Netherlands and Switzerland) and the Stepstone metro and role pages; the 27 November
-pass swept the five boards again and then opened the Stepstone arrows whose card markup hides the
-employer, which is where the newest three names came from — DevOps, SRE, platform and
-infrastructure titles, deduplicated against the pipeline's own rows and one row per employer.
+passes swept the five boards repeatedly — the default role and city grid, then Freiburg, Stuttgart,
+Karlsruhe and Frankfurt with systems and reliability terms, then Frankfurt, Düsseldorf, Leipzig and
+Dresden — and then opened the Stepstone arrows whose card markup hides the employer, which is
+where the newest seven names came from — DevOps, SRE, platform and infrastructure titles,
+deduplicated against the pipeline's own rows and one row per employer.
 These are leads, not applications: no mail has gone out, and the send gate holds until
 7 December 2026.
 
@@ -188,6 +190,10 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 | Löwenstein Medical Technology | Löwenstein Medical Technology GmbH + Co. KG | Cloud Infrastruktur Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Cloud-Infrastruktur-Engineer-m-w-d-Bad-Ems-Loewenstein-Medical-Technology-GmbH-Co-KG--14799928-inline.html>) |
 | New Monday | New Monday GmbH | Senior Azure Cloud DevOps Engineer – Kubernetes, Terraform & C#/.NET (gn) | [ad](<https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/senior-azure-cloud-devops-engineer-kubernetes-terraform-c-net-gn-berlin-68473>) |
 | PerFact | PerFact Innovation | Platform Engineer (m/w/d) mit Schwerpunkt Reliability | [ad](<https://www.stepstone.de/stellenangebote--Platform-Engineer-m-w-d-mit-Schwerpunkt-Reliability-Herford-PerFact--14695709-inline.html>) |
+| Andreas Hettich | Andreas Hettich GmbH | IT-Systems-Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--IT-Systems-Engineer-m-w-d-Tuttlingen-Andreas-Hettich-GmbH--14785623-inline.html>) |
+| AXA | AXA | AI Infrastructure Engineer (m/w/d) | [ad](<https://germantechjobs.de/jobs/AXA-AI-Infrastructure-Engineer-mwd>) |
+| JUMO | JUMO GmbH & Co. KG | Cloud-Architect (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Cloud-Architect-m-w-d-Fulda-JUMO-GmbH-Co-KG--14684627-inline.html>) |
+| OGS | OGS Gesellschaft für Datenverarbeitung und Systemberatung mbH | Netzwerkadministrator & Systems Engineer (m/w/d) – Linux, Private Cloud, Automatisierung | [ad](<https://www.stepstone.de/stellenangebote--Netzwerkadministrator-Systems-Engineer-m-w-d-Linux-Private-Cloud-Automatisierung-Koblenz-OGS-Gesellschaft-fuer-Datenverarbeitung-und-Systemberatung-mbH--14741683-inline.html>) |
 
 ## Tailored packets
 
