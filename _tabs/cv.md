@@ -194,6 +194,8 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 | AXA | AXA | AI Infrastructure Engineer (m/w/d) | [ad](<https://germantechjobs.de/jobs/AXA-AI-Infrastructure-Engineer-mwd>) |
 | JUMO | JUMO GmbH & Co. KG | Cloud-Architect (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Cloud-Architect-m-w-d-Fulda-JUMO-GmbH-Co-KG--14684627-inline.html>) |
 | OGS | OGS Gesellschaft für Datenverarbeitung und Systemberatung mbH | Netzwerkadministrator & Systems Engineer (m/w/d) – Linux, Private Cloud, Automatisierung | [ad](<https://www.stepstone.de/stellenangebote--Netzwerkadministrator-Systems-Engineer-m-w-d-Linux-Private-Cloud-Automatisierung-Koblenz-OGS-Gesellschaft-fuer-Datenverarbeitung-und-Systemberatung-mbH--14741683-inline.html>) |
+| H. Gautzsch | H. Gautzsch Firmengruppe | Senior Linux Administrator (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-Linux-Administrator-m-w-d-Muenster-H-Gautzsch-Firmengruppe--14404144-inline.html>) |
+| SSI Solutions | SSI Solutions GmbH | Solutions Architect – Cloud / Azure / Microsoft 365 (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Solutions-Architect-Cloud-Azure-Microsoft-365-m-w-d-Visbek-SSI-Solutions-GmbH--14483553-inline.html>) |
 
 ## Tailored packets
 
