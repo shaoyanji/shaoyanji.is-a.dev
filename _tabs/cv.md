@@ -52,6 +52,16 @@ postings, 156 in the lane, of which 14 employers were new to the record and two 
 VOLENTUM in Wolfsburg and DOMUS Consult in Berlin — taking the table to 150 rows. Grafana Labs
 stays closed for 180 days after its 24 November rejection, Magazino was already a lead from
 2026-11-27p, and the rest were desktop support, junior or working-student roles, or recruiters.
+The third pass (sweep 2026-11-27y) read 1,381 postings on the five boards, kept 113 inside the lane
+and younger than a week, and again met no new employer there. Arbeitnow's feed now pages across its
+German, Dutch, French, British and Swiss sites, so thirty-five pages carried 5,790 postings, 101 in
+the lane at 85 employers: 73 were already on file and two were worth a row — Zscaler, hiring a
+remote-EMEA Staff DevOps engineer for the Kubernetes platform behind its AI Guard traffic
+inspection, and Lefebvre Sdu in The Hague, building its own DevOps function on EKS, Terraform and
+GitHub Actions — taking the table to 152 rows. The other new names were two Personalberatungen, a
+consultancy advertising an unnamed client in Duisburg, and six roles in France and Britain outside
+the market this search covers. Magazino surfaced as new only because the record holds it as
+Magazino GmbH (Jungheinrich Robotics), whose parenthetical defeats the name match.
 These are leads, not applications: no mail has gone out, and the send gate holds until
 7 December 2026.
 
@@ -207,6 +217,8 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 | SSI Solutions | SSI Solutions GmbH | Solutions Architect – Cloud / Azure / Microsoft 365 (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Solutions-Architect-Cloud-Azure-Microsoft-365-m-w-d-Visbek-SSI-Solutions-GmbH--14483553-inline.html>) |
 | VOLENTUM | VOLENTUM Deutschland GmbH | IT-Systemadministrator (m/w/d) | [ad](<https://www.arbeitnow.com/jobs/companies/volentum-deutschland-gmbh/it-systemadministrator-wolfsburg-98045>) |
 | DOMUS Consult | DOMUS Consult Wirtschaftsberatungsgesellschaft mbH | IT-Systemadministrator (m/w/d) – Microsoft 365 & Infrastruktur | [ad](<https://www.arbeitnow.com/jobs/companies/domus-consult-wirtschaftsberatungsgesellschaft-mbh/it-systemadministrator-microsoft-365-infrastruktur-483717>) |
+| Zscaler | Zscaler | Staff DevOps Engineer, AI Security – remote, EMEA | [ad](<https://www.arbeitnow.nl/jobs/companies/zscaler/staff-devops-engineer-ai-security-105468>) |
+| Lefebvre Sdu | Lefebvre Sdu | Senior DevOps Engineer | [ad](<https://www.arbeitnow.nl/jobs/companies/lefebvre-sdu/senior-devops-engineer-den-haag-212266>) |
 
 ## Tailored packets
 
