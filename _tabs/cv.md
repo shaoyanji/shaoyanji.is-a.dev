@@ -207,11 +207,11 @@ Two public copies of the packets prepared in this application round, in rank ord
 address and phone are removed; email and links are kept.
 
 1. **Flink — Platform Engineer, Berlin** —
-   [CV](</assets/files/packets/flink-platform-engineer-berlin/lebenslauf.pdf>) ·
-   [letter](</assets/files/packets/flink-platform-engineer-berlin/anschreiben.pdf>)
+   <a href="/assets/files/packets/flink-platform-engineer-berlin/lebenslauf.pdf" download>CV</a> ·
+   <a href="/assets/files/packets/flink-platform-engineer-berlin/anschreiben.pdf" download>letter</a>
 2. **Pentland Firth — Senior Cloud Platform Engineer, Munich** —
-   [CV](</assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/lebenslauf.pdf>) ·
-   [Anschreiben](</assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/anschreiben.pdf>)
+   <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/lebenslauf.pdf" download>CV</a> ·
+   <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/anschreiben.pdf" download>Anschreiben</a>
 
 ## Elsewhere
 
