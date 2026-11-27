@@ -36,8 +36,10 @@ as the PDF.
 
 ## Job search
 
-Leads logged on 25 November 2026 in four passes, from LinkedIn (Germany, Austria, the
-Netherlands and Switzerland) and the Stepstone metro and role pages — DevOps, SRE, platform and
+Leads logged on 25 and 27 November 2026. The four 25 November passes read LinkedIn (Germany,
+Austria, the Netherlands and Switzerland) and the Stepstone metro and role pages; the 27 November
+pass swept the five boards again and then opened the Stepstone arrows whose card markup hides the
+employer, which is where the newest three names came from — DevOps, SRE, platform and
 infrastructure titles, deduplicated against the pipeline's own rows and one row per employer.
 These are leads, not applications: no mail has gone out, and the send gate holds until
 7 December 2026.
@@ -183,6 +185,9 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 | XXXLdigital | XXXLdigital – Part of XXXL Group | Cloud Platform Engineer (m/w/d) | [ad](<https://at.linkedin.com/jobs/view/cloud-platform-engineer-m-w-d-at-xxxldigital-%E2%80%93-part-of-xxxl-group-4486237163>) |
 | yellowshark | yellowshark® AG | Cloud Engineer (m/w, 80-100%) | [ad](<https://ch.linkedin.com/jobs/view/cloud-engineer-m-w-80-100%25-at-yellowshark%C2%AE-ag-4477720956>) |
 | ÖBB | ÖBB | IT Generalist:in – Infrastructure & Cloud | [ad](<https://at.linkedin.com/jobs/view/it-generalist-in-%E2%80%93-infrastructure-cloud-at-%C3%B6bb-4439461281>) |
+| Löwenstein Medical Technology | Löwenstein Medical Technology GmbH + Co. KG | Cloud Infrastruktur Engineer (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Cloud-Infrastruktur-Engineer-m-w-d-Bad-Ems-Loewenstein-Medical-Technology-GmbH-Co-KG--14799928-inline.html>) |
+| New Monday | New Monday GmbH | Senior Azure Cloud DevOps Engineer – Kubernetes, Terraform & C#/.NET (gn) | [ad](<https://www.arbeitnow.com/jobs/companies/new-monday-gmbh/senior-azure-cloud-devops-engineer-kubernetes-terraform-c-net-gn-berlin-68473>) |
+| PerFact | PerFact Innovation | Platform Engineer (m/w/d) mit Schwerpunkt Reliability | [ad](<https://www.stepstone.de/stellenangebote--Platform-Engineer-m-w-d-mit-Schwerpunkt-Reliability-Herford-PerFact--14695709-inline.html>) |
 
 ## Tailored packets
 
