@@ -222,8 +222,8 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 
 ## Tailored packets
 
-Two public copies of the packets prepared in this application round, in rank order. Street
-address and phone are removed; email and links are kept.
+Three public copies of the packets prepared in this application round. Street address, phone
+and salary expectation are removed; email and links are kept.
 
 1. **Flink — Platform Engineer, Berlin** —
    <a href="/assets/files/packets/flink-platform-engineer-berlin/lebenslauf.pdf" download>CV</a> ·
@@ -231,6 +231,9 @@ address and phone are removed; email and links are kept.
 2. **Pentland Firth — Senior Cloud Platform Engineer, Munich** —
    <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/lebenslauf.pdf" download>CV</a> ·
    <a href="/assets/files/packets/pentland-firth-senior-cloud-platform-engineer-munich/anschreiben.pdf" download>Anschreiben</a>
+3. **HiSolutions AG — Senior Kubernetes Expert / DevOps Engineer, remote (Deutschland)** —
+   <a href="/assets/files/packets/hisolutions-ag-senior-kubernetes-expert-devops-engineer/lebenslauf.pdf" download>Lebenslauf</a> ·
+   <a href="/assets/files/packets/hisolutions-ag-senior-kubernetes-expert-devops-engineer/anschreiben.pdf" download>Anschreiben</a>
 
 ## Elsewhere
 
