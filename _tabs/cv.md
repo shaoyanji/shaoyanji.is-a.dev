@@ -45,8 +45,13 @@ where the newest seven names came from — DevOps, SRE, platform and infrastruct
 deduplicated against the pipeline's own rows and one row per employer.
 The closing pass that day (sweep 2026-11-27w) read 1,381 postings, kept 59 inside the lane and
 younger than two days, and met no employer the table did not already hold; a direct read of twelve
-Arbeitnow pages added 78 further in-lane postings, all of them already on file, so the table stands
-at 148 rows.
+Arbeitnow pages added 78 further in-lane postings, all of them already on file.
+The next pass (sweep 2026-11-27x) read 1,382 postings on the five boards, kept 115 inside the lane
+and younger than a week, and again met no new employer; twelve Arbeitnow pages carried 2,914
+postings, 156 in the lane, of which 14 employers were new to the record and two were worth a row —
+VOLENTUM in Wolfsburg and DOMUS Consult in Berlin — taking the table to 150 rows. Grafana Labs
+stays closed for 180 days after its 24 November rejection, Magazino was already a lead from
+2026-11-27p, and the rest were desktop support, junior or working-student roles, or recruiters.
 These are leads, not applications: no mail has gone out, and the send gate holds until
 7 December 2026.
 
@@ -200,6 +205,8 @@ These are leads, not applications: no mail has gone out, and the send gate holds
 | OGS | OGS Gesellschaft für Datenverarbeitung und Systemberatung mbH | Netzwerkadministrator & Systems Engineer (m/w/d) – Linux, Private Cloud, Automatisierung | [ad](<https://www.stepstone.de/stellenangebote--Netzwerkadministrator-Systems-Engineer-m-w-d-Linux-Private-Cloud-Automatisierung-Koblenz-OGS-Gesellschaft-fuer-Datenverarbeitung-und-Systemberatung-mbH--14741683-inline.html>) |
 | H. Gautzsch | H. Gautzsch Firmengruppe | Senior Linux Administrator (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Senior-Linux-Administrator-m-w-d-Muenster-H-Gautzsch-Firmengruppe--14404144-inline.html>) |
 | SSI Solutions | SSI Solutions GmbH | Solutions Architect – Cloud / Azure / Microsoft 365 (m/w/d) | [ad](<https://www.stepstone.de/stellenangebote--Solutions-Architect-Cloud-Azure-Microsoft-365-m-w-d-Visbek-SSI-Solutions-GmbH--14483553-inline.html>) |
+| VOLENTUM | VOLENTUM Deutschland GmbH | IT-Systemadministrator (m/w/d) | [ad](<https://www.arbeitnow.com/jobs/companies/volentum-deutschland-gmbh/it-systemadministrator-wolfsburg-98045>) |
+| DOMUS Consult | DOMUS Consult Wirtschaftsberatungsgesellschaft mbH | IT-Systemadministrator (m/w/d) – Microsoft 365 & Infrastruktur | [ad](<https://www.arbeitnow.com/jobs/companies/domus-consult-wirtschaftsberatungsgesellschaft-mbh/it-systemadministrator-microsoft-365-infrastruktur-483717>) |
 
 ## Tailored packets
 
